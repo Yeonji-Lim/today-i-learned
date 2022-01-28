@@ -18,3 +18,12 @@ __name__  : 모듈의 이름이 저장되는 변수
 __file__ : 현재 실행되고 있는 파일의 경로가 저장되는 변수
 
 ## python list slicing
+
+## python with문
+
+자원을 획득 -> 사용 -> 반납 하는 형식으로 동작한다.
+
+~~~
+with EXPR as VAR:
+    BLOCK
+~~~
