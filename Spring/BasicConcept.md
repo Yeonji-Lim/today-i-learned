@@ -67,3 +67,34 @@ Dependency Injection : 의존성 주입
 
 리플렉션 : 런타임 시 해당 클래스가 어떤 것들을 들고 있는지를 분석함
 
+## Message Converter를 가지고 있다. 기본값은 json
+
+
+중간언어 : 주로 xml을 썼었는데 이제 주로 json을 쓰고 있음
+
+
+ex : 자바 프로그램 <-> json <-> 파이썬 프로그램
+
+이때 번역해주는게 Message Converter
+
+
+8 bit = 1 byte : 통신의 단위, 하나의 문자
+
+
+## BufferedReader와 BufferedWriter를 쉽게 사용할 수 있다.
+
+
+원래 배열로 입력 받음
+
+-> 배열은 크기가 고정적임
+
+
+BufferedReader는 가변적으로 입력을 받을 수 있다.
+
+
+@ResponseBody -> BufferedWriter
+
+@RequestBody -> BufferedReader
+
+
+## 계속 발전중이다.
