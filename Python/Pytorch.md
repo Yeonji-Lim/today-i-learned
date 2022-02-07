@@ -98,3 +98,61 @@ tensor([[1., 1., 1.],
        [3., 3., 3.],
        [4., 4., 4.]])
 ~~~
+
+## torch.Tensor.repeat(*sizes) -> Tensor
+
+해당 텐서의 특정 차원을 반복한다. 
+
+expand와 다르게 텐서의 데이터를 복사한다.
+
+✻ 또한 numpy.repeat보다는 numpy.tile과 비슷하다
+
+sizes : torch.Size나 int 형태, 각 차원 마다 반복할 횟수를 정한다.
+
+       >>> x = torch.tensor([1, 2, 3])
+       >>> x.repeat(4, 2)
+       tensor([[ 1,  2,  3,  1,  2,  3],
+              [ 1,  2,  3,  1,  2,  3],
+              [ 1,  2,  3,  1,  2,  3],
+              [ 1,  2,  3,  1,  2,  3]])
+       >>> x.repeat(4, 2, 1).size()
+       torch.Size([4, 2, 3])
+​
+
+## Tesor Views
+
+기존 텐서(base tensor)의 view 텐서로 바꿀 수 있다. 
+
+기존 텐서와 동일한 기본 데이터를 공유함 -> 뷰 텐서에서 값을 수정하면 기존 텐서의 값에 반영됨!
+
+명시적인 데이터 복사를 방지함 -> 메모리의 효율적인 재구성,Slicing, Element-wise operation
+
+같은 데이터를 다른 차원으로 변형해서 볼 수 있다. 
+
+​
+## torch.full
+
+torch.full(size, fill_value, *, out=None, dtype=None, layout=torch.strided, device=None, requires_grad=False) -> Tensor
+
+크기가 size만하고 값을 fill_value로 채운 텐서를 만들어냄
+
+out : 결과 텐서 
+
+dtype : 데이터 타입
+
+## torch.Tensor.expand_as
+
+Tensor.expand_as(other)
+
+expand(other.size())와 동일한 의미, 해당하는 텐서를 other와 동일한 크기로 확장시켜줌
+
+
+## torch.Tensor.topk
+
+Tensor.topk(k, dim=None, largest=True, sorted=True)
+
+해당 텐서 특정 차원의 값중 가장 큰 k개의 값을 반환한다. 
+
+dim 기본 값은 해당 텐서의 가장 큰 차원
+
+largest가 false이면 가장 작은 k개의 값
