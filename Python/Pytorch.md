@@ -1,10 +1,15 @@
 
+## Torch 설치하기 
 
-torch.tensor -> 단일 종류의 변수로 이루어진 다차원 행렬
+아래 사이트에서 원하는 지금 환경에 맞는 pytorch를 설치할 수 있다. 
 
-torch.unsqeeze -> 지정된 위치에 1차원 크기가 삽입된 새 텐서
+https://pytorch.org/
 
-torch.long -> long으로 자료형 변경
+## torch.tensor -> 단일 종류의 변수로 이루어진 다차원 행렬
+
+## torch.unsqeeze -> 지정된 위치에 1차원 크기가 삽입된 새 텐서
+
+## torch.long -> long으로 자료형 변경
 
 ## tensor.mean()
 
