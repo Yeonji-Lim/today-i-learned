@@ -98,3 +98,12 @@ tensor([[1., 1., 1.],
        [3., 3., 3.],
        [4., 4., 4.]])
 ~~~
+
+
+## torch.Tensor.normal_
+
+~~~
+Tensor.normal_(mean=0, std=1, *, generator=None)
+~~~
+
+주어진 mean과 std로 매개변수화된 정규 분포의 원소 표본을 사용해서 텐서를 채움
