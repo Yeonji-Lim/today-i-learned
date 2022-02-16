@@ -27,3 +27,31 @@ __file__ : 현재 실행되고 있는 파일의 경로가 저장되는 변수
 with EXPR as VAR:
     BLOCK
 ~~~
+
+# python range()
+
+iterable한 객체를 생성한다.
+
+range(n) : 0 이상 n 미만인 수를 차례로 나열하는 수열
+
+range(a, b) : a 이상 b 미만인 수를 차례로 나열하는 수열
+
+range(a, b, step) : a 이상 b 미만의 수를 step 간격으로 나열하는 수열
+
+
+이때 step이 음수가 되면 역순!
+
+
+# python list slicing(:)
+
+슬라이싱 문법
+
+[ : ] 처음부터 끝까지
+
+[ start : ] start 인덱스부터 끝까지
+
+[ : end ] 처음부터 end 인덱스까지
+
+[ start : end ] start 인덱스부터 end 인덱스까지
+
+[ start : end : step ] step만큼 문자를 건너뛰면서 start 인덱스부터 end 인덱스까지
