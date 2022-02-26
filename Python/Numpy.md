@@ -112,3 +112,12 @@ size는 output size 기본값은 1
 replace는 여러번 선택될 수 있는지 여부 기본값은 True
 
 p는 적용할 확률분포, array
+
+## numpy.load
+
+~~~
+numpy.load(file, mmap_mode=None, allow_pickle=False, fix_imports=True, encoding='ASCII')
+~~~
+
+.npy, .npz, pickled 파일 등에서 배열이나 pickled 객체를 가져온다.
+
