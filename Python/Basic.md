@@ -90,3 +90,14 @@ python 표준 라이브러리에서 제공하는 command-line parsing module.
 
 파이썬 스크립트 호출 시 인자값을 줘서 동작을 다르게 하고 싶은 경우에 사용한다.
 
+# python heapq
+
+이진트리 기반의 최소 힙 자료구조.
+
+우선순위 큐라고 생각하면 된다.
+
+~~~
+import heapq
+...
+heapq.heappush(heap, item)
+~~~
