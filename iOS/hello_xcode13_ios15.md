@@ -139,3 +139,23 @@ Swrift에서 List는 identifiable한 데이터를 다뤄야 한다.
 ## 슬로우쿼리(slowquery)
 
 예상시간보다 실행이 오래걸리는 쿼리.. 거의 말그대로의 의미였다.
+
+## KVO
+
+Key value Observing
+
+특정 위치에 있는 값(value)를 observing, 감시한다.
+
+그래서 해당 값이 바뀌면 observer가 값이 바뀌었다고 알려준다.
+
+서버와 통신한다고 했을 때, 서버를 통해서 갔다오는 것이 시간이 걸리게 된다.
+
+그래서 서버로 요청한 다음에 결과를 받는 변수에게 observer를 걸어두면 서버에서 결과값이 value에 채워질때 observer의 알림으로 알게 되는 것!
+
+## KVC
+
+Key Value Coding
+
+특정 키에 맞추어서 키의 값을 가져오는 것을 말한다.
+
+딕셔너리!
