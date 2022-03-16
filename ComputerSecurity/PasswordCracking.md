@@ -102,3 +102,82 @@ $ sudo su
 그리고 john으로 실행 시킨 후, adduser가 아니라 useradd를 하는 방법도 있는데,
 
 지금 내가 추가한 것과 결국 같은 방법이다.
+
+하루를 기다렸는데, 안돌아가고 컴퓨터가 살짝 맛이 가려해서 데스크톱으로 옮겼다
+
+이번에는 window의 vmware에서의 kali linux다.
+​
+
+그런데 원래대로 하려고 하니, john password.txt에서 패스워드 해시가 로드되지 않았다고 한다..
+
+이상하네.. 맥에서는 되었는데 뭐가 문제인지 모르겠다.
+
+그래서 일단은 계정을 지워주기 위해서 deluser를 했다.
+
+
+adduser useradd가 있고 deluser userdel이 있다는데, 
+
+adduser로 해서 그러는지 sudo deluser하니까 계정이 잘 지워졌다.
+​
+
+그리고 useradd 로 다시 계정을 만들었다.
+
+알아보니까 홈디렉토리가 생성되느냐 안되느냐의 차이라고 한다. 
+
+
+어제는 이거 안돼서 adduser 했던건데 갑자기 잘된다?
+
+아마도 kali로 한것과 root로 한것의 차이가 아닐까 생각한다. 
+
+​
+
+그리고 나서 패스워드를 passwd로 설정해주었다. 
+
+
+전처럼 뭔가 길게 안나오고 그냥 패스워드 입력 부분만 간단하게 나오는 것을 볼 수 있다.
+
+그리고 다시 다음과 같이 입력
+
+~~~
+unshadow /etc/passwd etc/shadow | egrep '(^user.)' > password.txt
+~~~
+
+그리고 나서 john password.txt를 시도해봤는데 안된다..
+
+
+패스워드를 이미 한번 크랙하고 나면 이렇게 된다고 하는데,, 나는 처음부터 떴는데,,?
+
+일단 한번 해결 방법을 따라 시도해본다.
+
+
+.pot파일을 지워주라고 하는데 나랑 뭔가 구조가 다른 것 같아서 좀 겁먹은 상태로 일단은 최대한 파일들을 뒤져봤다.
+
+그렇게 찾아 보다가 결국 pot으로 끝나는 파일은 찾을 수가 없었다.
+​
+
+그러다가 unshadow할 때 /를 etc/shadow에 안붙이고 /위치에서 진행했는데 이번에는 /etc/shadow로 etc/위치에서 진행했다.
+
+그래도 여전히 같은 오류로 안됐다.
+
+
+tail etc/shadow로 확인해 봤는데 password.txt 파일에서 본 것과 비슷한 내용이 잘 확인이 된다.
+
+
+... 이쯤에서 그냥 john의 GUI인 johnny를 쓰기로 했다.
+
+kali linux에 johnny를 설치해준다.
+
+~~~
+sudo apt-get update
+sudo apt-get install johnny
+~~~
+
+그리고 johnny 어플리케이션을 실행시키고 
+
+좌측상단의 Open password file로 아까 만든 password.txt를 열었다.
+
+아.. 실행이 안되고 log 확인해보라길래 왼쪽 아래에 있는 Console log를 들어가보니.. 아까와 같은 내용이 찍혀있었다.
+
+그래서 이번에는 이렇게 해서 shadowfile을 만들고 이 파일을 열어보았다.
+
+그래도 같은 이유로 동작이 안되었다.
