@@ -181,3 +181,37 @@ sudo apt-get install johnny
 그래서 이번에는 이렇게 해서 shadowfile을 만들고 이 파일을 열어보았다.
 
 그래도 같은 이유로 동작이 안되었다.
+
+
+애증의 존더리퍼 맥에서도 되는거였다...
+
+그것도 모르고 리눅스에서 안돼서 윈도우로 넘어가려 함
+
+아무튼 다음과 같이 설치한다.
+
+~~~
+git clone "https://github.com/magnumripper/JohnTheRipper.git" && cd JohnTheRipper/src && ./configure && sudo make -s clean && sudo make -sj4
+~~~
+살펴 보니 뭔가 구조가 다른 듯 해서  brew 로 한번 설치해본다.
+
+~~~
+brew install john
+cd /usr/local/share
+ln -s /usr/local/Cellar/john/1.9.0/libexec john
+cd john
+cp john.ini john.conf
+~~~
+
+그런데 이때 john.ini는 없고 john.conf만 있었다.
+
+그래도 일단 cd로 나가서 john을 실행해보니 잘 실행
+
+그런데 실제로 john에 들어가보니.. 아무것도 없었다...;
+
+일단 해시 파일을 만들기 위해서 /usr/etc에 들어갔는데 passwd는 있는데 shadow는 없었다.
+
+알아보니 맥은 etc/passwd etc/shadow를 지원하지 않는다고 한다.
+
+대신 dscl을 이용할 수 있다.
+
+...
