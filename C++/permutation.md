@@ -109,6 +109,7 @@ do {
     cout << endl;
 } while(next_permutation( perm.begin(), perm.end() ));
 ~~~
+
 ~~~
 345
 245
