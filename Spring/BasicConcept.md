@@ -383,3 +383,67 @@ http://naver.com/picture/a    URI
 
 
 - 보안
+
+
+## Front Controller 패턴
+
+web.xml에 너무 많은 Servlet/JSP에 대한 정의가 들어있기 힘들다.
+
+그래서 Front Controller를 두어서 최초 앞단에서 request 요청을 받아서 필요한 클래스에 넘겨준다.
+
+이때 새로운 요청이 생기기 때문에 request와 response가 새롭게 new될 수 있다.
+
+그래서 Request Dispatcher가 필요하다.
+
+
+어떤 요청이 들어오는데, 특정 주소(.do)같은 것이 들어오게 되면 Controller에게 그 요청이 가게 되는 것으로 web.xmp에 미리 약속을 해두자.
+
+이때, 최초의 URI 또는 자바 파일 요청이 들어오면 바로 자원으로 접근할 수 없다.
+
+web.xml을 가지고 있는 톰켓으로 가게 된다.
+
+
+이 톰켓은 그러면 request와 response 객체를 만든다.
+
+~~~
+request 객체 : 어떤 것을 요구하는지, 어떤 데이터를 가지고 요청하는지에 대한 정보
+
+response 객체 : 응답 정보, 데이터
+~~~
+
+즉, 어떤 가변길이의 문자가 들어오면 톰켓은 이걸 자바가 쉽게 다룰 수 있는 객체로 만들어 주는 것
+
+
+아무튼 이때, 특정 주소(.do)가 들어오면 web.xml에서 FrontController가 낚아채게 된다.
+
+그렇게 되면 FrontController가 미리 설정한 자원으로 새로운 request 객체가 접근하게 된다.
+
+이렇게 되면, 톰켓의 request, response 객체가 새로운 객체로 바뀌게 된다.
+
+그런데 자원입장에서는 response를 보내야하는 곳이 원래 처음에 요청을 보낸 곳이 아니라 FrontController가 된다.
+
+
+그래서 이를 해결하기 위해서 기존의 request, response 객체를 유지하는 방법이 있다.
+
+즉, 이 상황에서 새로운 객체를 만들어서 기존을 덮어씌우거나 지우는 것이 아니라, 기존의 객체를 그대로 사용하는 것
+
+이 역할을 해주는 것이 Request Dispatcher
+
+
+## Request Dispatcher
+
+필요한 클래스 요청이 도달했을 때, FrontController에 도착한 request, response를 그대로 유지시켜준다.
+
+
+## Spring의 Dispatch Servlet
+
+JSP를 사용한다면 Front Controller 패턴을 직접 짜거나 Request Dispatcher를 직접 구현해야 한다.
+
+그런데 Spring에서는 그런 작업이 필요하지 않다.
+
+Dispatch Servlet = Front Controller 패턴 + Request Dispatcher
+
+
+DispatchServlet이 자동생성 되어질 때 수 많은 객체가 생성된다.(IoC) 보통 필터들이다.
+
+해당 필터들은 내가 직접 등록할 수도 잇고, 기본적으로 필요한 필터들은 자동 등록되어진다.
