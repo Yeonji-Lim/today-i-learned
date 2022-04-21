@@ -447,3 +447,68 @@ Dispatch Servlet = Front Controller 패턴 + Request Dispatcher
 DispatchServlet이 자동생성 되어질 때 수 많은 객체가 생성된다.(IoC) 보통 필터들이다.
 
 해당 필터들은 내가 직접 등록할 수도 잇고, 기본적으로 필요한 필터들은 자동 등록되어진다.
+
+## Spring Container
+
+
+Dispatcher Servlet에서 생성되는 객체들이 관리되는 곳
+
+
+### Application Context
+
+
+어떤 요청이 들어오면 web.xml이 받아서 Dispatch Servlet이 동작해서 '컴포넌트 스캔'을 한다.
+
+
+주소 분배를 해주는 거임. 근데 이때 모든 파일을 뒤져서 필요한 파일을 메모리에 올림
+
+이때 어떤 것을 올리고 어떤 것을 올리지 않을 건지는 annotation으로 구분
+
+아무튼 메모리에 떠있는 것으로 주소 분배함
+
+스캔한다는 거는 메모리에 로딩한다는 거임
+
+
+이렇게 메모리에 올리는 것을 ApplicationContext에 등록된다고 하고, 또 이걸 IoC라고 한다.
+
+IoC는 제어의 역전을 의미함 그리고 이 객체들을 스프링이 직접관리함(어떤 어노테이션을 올릴건지)
+
+개발자는 이 주소를 몰라도 된다. 왜냐면 필요할 때 DI(의존성 주입)하면 되기 때문
+
+
+근데 이전에 하는게 있음
+
+ContextLoaderListener
+
+스레드 들이 공통적으로 요청하는 것이 있을 수 있음 이런 경우에는 DB connection이 필요
+
+이 리스너가 이걸 띄움
+
+어떻게? root-applicationContext라는 파일을 읽어서 띄워줌
+
+(root-applicationContext파일과 servlet-applicationContext파일을 ApplicationContext라고 함)
+
+
+root-applicationContext는 해당 어노테이션을 제외한 어노테이션 Service, Respository등을 스캔하고 DB관련 객체를 생성
+
+그리고 이 파일은 ContextLoaderListener에 의해 실행
+
+(servlet-applicationContext는 ViewResolver, Interrceptor, MultipartResolver 객체를 생성하고 웹과 관련된 어노테이션 Controller, RestController를 스캔함 그리고 이 파일은 Dispatch Servlet에 의해 실행됨)
+
+
+아무튼 ContextLoaderListener는 web.xml이 실행해줌
+
+그래서 root-applicationContext는 servlet-applicationContext보다 먼저 로드됨
+
+이렇게 되면 리스너가 DB에 띄운 애들은 그 다음 단계에서 디스패처가 띄운 애들한테 접근을 할 수 없음근데 반
+
+근데 반대는 가능
+
+
+### Bean Tactory
+
+@Bean으로 필요한 객체를 등록 : 초기에 메모리에 로드 x, 필요할 때 getBean()이라는 메소드를 통해 호출, 메모리에 로드
+
+이것 또한 IoC이고 필요할 때 DI해서 사용가능
+
+그런데 여기에 로드되는 객체들은 미리로드 x, 필요할 때 호출하여 로드 lazy loading이 된다는 점이 ApplicationContext랑 다름
