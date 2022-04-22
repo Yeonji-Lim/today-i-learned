@@ -512,3 +512,31 @@ root-applicationContext는 해당 어노테이션을 제외한 어노테이션 S
 이것 또한 IoC이고 필요할 때 DI해서 사용가능
 
 그런데 여기에 로드되는 객체들은 미리로드 x, 필요할 때 호출하여 로드 lazy loading이 된다는 점이 ApplicationContext랑 다름
+
+## Handler Mapping
+
+요청 주소에 따른 적절한 컨트롤로 요청
+
+Handler Mapping이 특정한 주소를 찾아줌
+
+해당 주소 요청이 오면 적절한 컨트롤러 함수를 찾아서 실행한다.
+
+​
+
+응답할 때는 html 파일을 응답할지 Data를 응답할지 결정해야 하는데, html 파일을 응답하게 되면 ViewResolver가 관여하게 된다.
+
+하지만, Data를 응답하게 되면 MessageConverter(Jackson)가 작동하게 되는데, 메시지를 컨버팅할 때 기본 전략은 json이다.
+
+​
+
+## 전체적인 작동
+
+1. 톰켓 실행시 web.xml 읽어들임
+
+2. ContextLoaderListener가 미리 DB에 연결해서 올려둘 것들 올려둠
+
+3. 요청이 들어오면 그때 필요한 거 메모리에 올림
+
+4. DiapatcherServlet이 주소를 분배 해줌
+
+5. 응답으로 Data나 html파일을 보냄
