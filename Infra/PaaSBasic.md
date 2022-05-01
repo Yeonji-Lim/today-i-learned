@@ -1,18 +1,27 @@
 # 컨테이너, 오케스트레이션 툴
 
+<img width="638" alt="image" src="https://user-images.githubusercontent.com/57888020/166128669-070cc79c-a68f-487b-8e1c-3a367869cc3a.png">
 
+VM, Container
 
-			VM								Container
+<img width="662" alt="image" src="https://user-images.githubusercontent.com/57888020/166128678-ad1ed013-68ae-4b36-87eb-dff35f1ef9d9.png">
+
+<img width="305" alt="Container" src="https://user-images.githubusercontent.com/57888020/166128689-85131bae-4df2-40a5-8eba-24d0d7f12b4b.png">
 
 Node : cluster
+
+<img width="754" alt="kube-controller-manager" src="https://user-images.githubusercontent.com/57888020/166128690-e08e65db-9923-4954-9016-0c85719b5532.png">
 
 * cAdvisor : Container Advisro
 * Pod : 컨테이너를 하나이상 모아둔 것
 
+<img width="599" alt="Tomcat 8 5" src="https://user-images.githubusercontent.com/57888020/166128693-ca9a0b0a-8055-42d1-be50-081d69b85f98.png">
 
 Openshift -> PaaS
 
 # Proxy
+
+![Forward Proxy Flow](https://user-images.githubusercontent.com/57888020/166128698-5d644be0-90bc-41d8-8be0-4645f9545e3d.png)
 
 프록시 서버 : 보통 아파치 vs nginx 구조
 nginx -> 수많은 사용자에게 동시 서비스 제공하는 것에 초점
@@ -41,5 +50,7 @@ https://d2.naver.com/helloworld/0216497
 Boss 와 worker를 두어서 처리
 보스는 여러 워커와 통신
 영상을 여러 부분으로 잘라서 분산 트랜스코딩
+
+<img width="874" alt="Pasted Graphic 4" src="https://user-images.githubusercontent.com/57888020/166128704-cb3729cc-0dc8-4c12-ac35-f8091ad20551.png">
 
 html 태그별 적합한 제공 방식이 다르다면 이런 방식을 생각
