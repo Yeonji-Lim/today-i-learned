@@ -55,21 +55,11 @@ add&norm과정은 잔차 연결(Residual connection)과 정규화 과정을 말�
 이제는 디코더입니다.
 
 
-디코더에는 current tokens라고 적혀있는데요, 사실 인코더에서 사용했던 source vector를 이용합니다.
+Current Token은 현재까지 추측한 토큰들입니다. 그리고 그 다음 토큰을 예측하면 current tokens 뒤에 해당 토큰이 추가됩니다.
 
-그러면 왜 current token일까요? 이렇게 보이게 하는 것이 masked multi head attention입니다. 
+그런데 토큰이 많이 추가되었을 때, Current Token에서 앞의 토큰이 뒤의 토큰에 대한 위치 정보를 가지고 있게 됩니다. 
 
-​
-
-transformer를 영어의 한국어 번역에 사용한다고 합시다. 
-
-원래 source vector가 "This is red apple" 이었다면
-
-시작 토큰인 <sos>를 붙여서 "<sos> This is red"을 입력으로 갖습니다.
-
-​
-
-그런데 이걸 그대로 인코더에서 처럼 multi head attention을 사용한다면, 전체의 포지션 정보를 가져가므로, 지금 시점에서 보지 않는 미래 시점에 대한 포지션 정보까지 참조하게 되어 버립니다. 이렇게 되면 오히려 정확성을 해치기 때문에 이런 과정을 거쳐줍니다.
+즉, 미래 시점까지 이미 알게 된다는 것입니다. 이는 마스크를 씌워서 안보이게 합니다.
 
 ​
 
