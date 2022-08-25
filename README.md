@@ -1,0 +1,2 @@
+# zettelkasten
+My Second Brain
