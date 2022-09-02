@@ -16,3 +16,5 @@ plugin 설치
 	"cpp": "cd $dir && clang++ -std=c++17 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
 }
 ```
+
+task.json, launch.json 같은 것 잘 확인하자.. [[spawn_binsh_ENOENT]]
