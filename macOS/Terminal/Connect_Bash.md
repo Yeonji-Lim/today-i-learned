@@ -1,4 +1,5 @@
 ## zsh 파일에서 bash_profile 연동
+[[macOS/Terminal/bash]]
 
 -> .zshrc에 다음을 추가
 
