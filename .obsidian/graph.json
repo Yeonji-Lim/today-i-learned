@@ -1,0 +1,58 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:Java",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    },
+    {
+      "query": "path:Coding_Test",
+      "color": {
+        "a": 1,
+        "rgb": 14069084
+      }
+    },
+    {
+      "query": "path:CE",
+      "color": {
+        "a": 1,
+        "rgb": 6080726
+      }
+    },
+    {
+      "query": "path:Spring",
+      "color": {
+        "a": 1,
+        "rgb": 6084188
+      }
+    },
+    {
+      "query": "path:Old_TIL",
+      "color": {
+        "a": 1,
+        "rgb": 9870490
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -0.2,
+  "nodeSizeMultiplier": 1.40741727941176,
+  "lineSizeMultiplier": 2.80269926264045,
+  "collapse-forces": true,
+  "centerStrength": 0.838648897058824,
+  "repelStrength": 12.8832720588235,
+  "linkStrength": 1,
+  "linkDistance": 94,
+  "scale": 0.8941118161288093,
+  "close": false
+}
