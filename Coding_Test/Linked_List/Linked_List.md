@@ -34,17 +34,37 @@
   - 구현 난이도가 일반적인 연결리스트보다 낮고, 시간 복잡도가 동일함
   - dat\[0\] 은 연결리스트의 시작원소 -> dummy node : 삽입/삭제 시 원소가 아예 없는 경우에 대한 예외 처리가 번거롭지 않아짐
   - 원소들은 unused 인덱스 전까지 아무렇게나 들어가 있음
+  - STL list보다 cache hit rate가 높을 것임
 
-## iter
+## iterator
+iterator를 옮길때는 begin, end조건을 꼭 확인해줘야 한다!
+
 erase하거나 insert하면 iter의 위치가 계속 바뀌어진다. - `BOJ 1406`
 iter가 현재 어디인지 모른다면 연산에 들어가기 전에 일단 begin과 같은 확실한 위치로 설정해두고 시작
 
-## With Cursor
+## Cursor
 STL을 사용해서 구현하고자 할 때 커서도 구현해야 한다면 list.end()가 리스트보다 크게 설정된다는 것을 이용해 
 실제로는 사이에 있는 커서를 그 바로 뒤에 있는 원소를 가리키는 iter로 표현
 
+## Iterator With Insert
+insert를 하면 iterator가 가리키는 곳의 왼쪽에 값을 추가한다.
+
+참고 - `BOJ 5397`
+
 ## Iterator With Erase
 erase를 하면 iterator가 가리키는 곳이 없어져서 ++, --로 iter를 움직일 수 없다.
+
+- iterator를 이용해서 List.erase()를 하고 나면 그 위치는 없는 위치가 되어 iterator가 엉뚱한 위치를 가리키게 되는 문제가 있다. 
+
+다음과 같이 해결한다.
+```c++
+   iterator = List.erase(iterator);
+```
+
+`erase`는 그 원소의 뒤를 가리키는 iterator를 반환한다.
+
+- iterator가 List.end()를 가리키고 있는 경우에 삭제가 안된다.
+- begin()을 삭제하면 안된다. 
 
 ## 손코딩 문제
 
