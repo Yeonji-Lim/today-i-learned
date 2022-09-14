@@ -1,5 +1,5 @@
 # PCB
-PCB는 Process Context/Control Block의 약자로, 프로세스가 실행중인 상태를 스냅샷으로 찍어서 보관하는 공간이다.
+PCB는 [Process](Process.md) Context/Control Block의 약자로, 프로세스가 실행중인 상태를 스냅샷으로 찍어서 보관하는 공간이다.
 
 다음과 같은 내용이 저장된다.
 

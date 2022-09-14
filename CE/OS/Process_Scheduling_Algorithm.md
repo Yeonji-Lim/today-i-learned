@@ -21,7 +21,7 @@ CPU의 전체 사용 시간을 작은 작업 시간량으로 분할하여 그 �
 
 ## [멀티 프로세싱](Multi_processing.md)
 
-## [멀티 프로그래밍](Multi_programming.md)
+## [멀티 프로그래밍](Multi_programming)
 
 최대한 데이터나 코드를 메인 메모리에 올리는 것이 속도를 높이는 방법임
 
