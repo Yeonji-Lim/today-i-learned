@@ -39,3 +39,9 @@
 색깔 채우기
 [BOJ-1926](https://www.acmicpc.net/problem/1926)
 
+### 거리 측정
+[BOJ-2178](https://www.acmicpc.net/problem/2178)
+
+### 시작점이 여러개
+[BOJ-7576](https://www.acmicpc.net/problem/7576)
+
