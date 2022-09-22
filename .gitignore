@@ -1,9 +1,13 @@
 .trash/
+.DS_Store
+.obsidian
 /Job_Seeking/*
 /Memo
 /Old_TIL/.DS_Store
 Markdown_Templates/*
 Temp_Post/*
+Dev_Log/*
+
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,obsidian,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,obsidian,visualstudiocode
@@ -71,14 +75,3 @@ Temporary Items
 *.code-workspace
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,obsidian,visualstudiocode
-
-.trash/
-.DS_Store
-.obsidian
-/Job_Seeking/*
-/Memo
-/Old_TIL/.DS_Store
-Markdown_Templates/*
-Temp_Post/*
-English/*
-To_Do/
