@@ -24,7 +24,7 @@ file 사용 기법 제외하고는 모든 기법이 프로세스의 사용자 �
 ### 2. Pipe
 단방향 통신, 부모 프로세스를 자식 프로세스에 일방적으로 통신
 fork로 자식 프로세스를 만들고 부모 데이터를 자식에게 보낸다
-[[System_Call]]
+[[CE/OS/System_Call]]
 
 ### 3. Mesage Queue
 FIFO
