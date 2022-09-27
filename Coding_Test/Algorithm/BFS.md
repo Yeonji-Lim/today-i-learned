@@ -42,6 +42,9 @@
 ### 거리 측정
 [BOJ-2178](https://www.acmicpc.net/problem/2178)
 
-### 시작점이 여러개
+#### 시작점이 여러개
 [BOJ-7576](https://www.acmicpc.net/problem/7576)
 
+**큐에 쌓이는 순서는 반드시 거리 순이다.**
+
+#### 시작점이 두 종류
