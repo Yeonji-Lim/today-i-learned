@@ -1,6 +1,6 @@
 # IoC Container
 
-Inversion of Control : 제어의 역전 -> 주도권을 스프링이 갖는다.
+[Inversion of Control](IoC.md)
 
 ~~~
 **
