@@ -1,7 +1,4 @@
-# AWS
-
-## 특징
-
+# EC2
 
 ## 구축(EC2)
 ### public IPv4 Address
