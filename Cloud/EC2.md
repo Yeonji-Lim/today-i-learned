@@ -1,4 +1,5 @@
 # EC2
+Elastic Compute Cloud
 
 ## 구축(EC2)
 ### public IPv4 Address
