@@ -1,5 +1,5 @@
 # ERD
-[Entity](Entity.md) Relationship Diagram
+[Entity](Entity.md) [Relationship](Relationship) Diagram
 
 개체-관계 모델
 테이블 간의 관계를 설명해주는 다이어그램
