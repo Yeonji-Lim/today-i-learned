@@ -1,4 +1,4 @@
-# [DataBase](DataBase) Management System
+# [DataBase](DataBase.md) Management System
 데이터 베이스를 처리하는 소프트웨어
 
 ## 장단점
