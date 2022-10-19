@@ -8,7 +8,7 @@
 
 ## 3.  테스팅은 개발 초기에 시작해야한다.  
 개발 단계에 테스트를 계획,  
-[SDLC(Software Development Life Cycle)](SDLC)의 각 단계에 맞춰 전략적으로 접근하는 것을 고려  
+[SDLC(Software Development Life Cycle)](SDLC.md)의 각 단계에 맞춰 전략적으로 접근하는 것을 고려  
 
 ## 4.  결함 집중(Defect Clustering)  
 결함의 대부분은 소수의 특정 모듈에 집중되어 존재함  
