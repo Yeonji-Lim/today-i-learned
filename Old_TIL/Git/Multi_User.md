@@ -81,5 +81,15 @@ ssh -T git@github.com-leepae
 Hi Yeonji-Lim! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
+깃헙 로컬 디렉토리로 들어간 뒤 다음과 같이 입력
+```shell
+git remote set-url origin git@github.com:Yeonji-Lim/ps-log.git
+```
+
+클론 받을 때 이런식으로 내가 설정한 이름을 붙여주어야 한다.
+```shell
+git clone git@github.com-yeonji-dalcom:dalcomsoft/ss_-gm.dalcomsoft.net.git
+```
+
 ## 참고
 https://usingu.co.kr/frontend/git/%ED%95%9C-%EC%BB%B4%ED%93%A8%ED%84%B0%EC%97%90%EC%84%9C-github-%EA%B3%84%EC%A0%95-%EC%97%AC%EB%9F%AC%EA%B0%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/
