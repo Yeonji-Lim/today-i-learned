@@ -10,7 +10,7 @@
 
 ### [Singleton](Singleton.md)
 
-### [Command](Command)
+### [Command](CE/OOP/Design_Pattern/Command.md)
 
 ### [Composite](Composite)
 
