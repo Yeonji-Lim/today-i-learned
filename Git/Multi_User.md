@@ -91,5 +91,24 @@ git remote set-url origin git@github.com:Yeonji-Lim/ps-log.git
 git clone git@github.com-yeonji-dalcom:dalcomsoft/ss_-gm.dalcomsoft.net.git
 ```
 
+## 비밀번호 없이 push/pull 하기
+위와 같이 진행해주고 나면 push, pull 할 때 계속해서 비밀번호를 입력해주어야 하는 귀찮음이 있다.
+
+해당 레포지토리의 로컬 위치로 이동
+
+```shell
+git remote add origin git@github.com-leapae:dongguk-umc-3rd/Spring_A_Study.git
+```
+
+이미 있다고 하면 기존 origin 삭제 후 다시 진행
+
+```shell
+git remote remove origin
+git remote add origin git@github.com-leapae:dongguk-umc-3rd/Spring_A_Study.git
+git remote show
+```
+
 ## 참고
 https://usingu.co.kr/frontend/git/%ED%95%9C-%EC%BB%B4%ED%93%A8%ED%84%B0%EC%97%90%EC%84%9C-github-%EA%B3%84%EC%A0%95-%EC%97%AC%EB%9F%AC%EA%B0%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/
+
+https://goddaehee.tistory.com/254
