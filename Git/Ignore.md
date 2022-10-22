@@ -1,3 +1,11 @@
+# .gitignore 적용하기
+
+```shell
+git rm -r --cached .
+git add .
+git commit -m "Apply gitignore"
+```
+
 # .DS_Store 파일
 
 Desktop Services Store의 약자로, 맥에서 시스템이 finder로 폴더에 접근할 때 자동으로 생기는 파일.
