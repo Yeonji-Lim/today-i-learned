@@ -70,6 +70,7 @@ code config
 SSH 연결 테스트
 ```shell
 ssh -T git@github.com-leepae
+ssh -T git@github.com-yeonji-dalcom
 ```
 
 **git은 반드시 git으로 작성**
