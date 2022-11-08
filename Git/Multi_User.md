@@ -109,6 +109,11 @@ git remote add origin git@github.com-leapae:dongguk-umc-3rd/Spring_A_Study.git
 git remote show
 ```
 
+## git config 연동 안됨 이슈
+SSH키만 설정하고 푸시하면 의도하지 않은 계정으로 기록이 남을 수 있다. 
+이를 방지하기 위해 다음의 링크를 참고해야 한다.
+https://www.lainyzine.com/ko/article/useful-git-settings-when-using-github-multi-account/
+
 ## 참고
 https://usingu.co.kr/frontend/git/%ED%95%9C-%EC%BB%B4%ED%93%A8%ED%84%B0%EC%97%90%EC%84%9C-github-%EA%B3%84%EC%A0%95-%EC%97%AC%EB%9F%AC%EA%B0%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/
 
