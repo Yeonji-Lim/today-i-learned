@@ -66,3 +66,4 @@ void filter_test() {
 BDD 스타일은 given, when, then으로 이루어진 스타일을 말한다.
 
 ## Exception 처리 test
+assertThatThrownBy()라는 예외처리를 가독성 있게 테스트할 수 있는 함수가 제공됨
