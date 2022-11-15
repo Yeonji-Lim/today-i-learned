@@ -1,4 +1,4 @@
-# Address Resolution Protocol
+# Address Resolution [Protocol](Protocol)
 [IP](IP.md) 주소(논리 주소)를 [MAC](MAC_Address.md) 주소(물리 주소)와 매칭시키기 위한 프로토콜
 로컬 네트워크([LAN](LAN.md))에서 단말과 단말 간의 통신을 하기 위해 IP주소와 함께 MAC 주소를 이용하게 되는데 IP 주소를 MAC 주소와 매칭하여 목적지 IP의 단말이 소유한 MAC 주소를 향해 제대로 찾아가기 위함 
 

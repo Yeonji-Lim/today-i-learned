@@ -4,9 +4,9 @@
 
 ## 2. 오픈 소스
 
-## 3. [IoC 컨테이너를 가진다.](IoC_Container)
+## 3. [IoC 컨테이너를 가진다.](IoC_Container.md)
 
-## 4. [DI](DI)를 지원한다.
+## 4. [DI](DI.md)를 지원한다.
 
 ## 5. 많은 필터를 가지고 있다.
 
@@ -26,7 +26,7 @@
 
 리플렉션 : 런타임 시 해당 클래스가 어떤 것들을 들고 있는지를 분석함
 
-## 7. [Message Converter](Message_Converter)를 가지고 있다. 
+## 7. [Message Converter](Message_Converter.md)를 가지고 있다. 
 
 ## 8. BufferedReader와 BufferedWriter를 쉽게 사용할 수 있다.
 

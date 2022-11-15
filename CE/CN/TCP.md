@@ -1,4 +1,4 @@
-# Transmission Control Protocol
+# Transmission Control [Protocol](Protocol)
 전송 제어 프로토콜
 
 인터넷 상에서 데이터를 메세지의 형태로 보내기 위해 IP와 함께 사용하는 프로토콜

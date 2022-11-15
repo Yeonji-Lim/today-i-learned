@@ -1,4 +1,4 @@
-# Dynamic Host Configuration [Protocol](Protocol)
+# Dynamic Host Configuration [Protocol](Protocol.md)
 동적 호스트 구성 프로토콜
 [IP](IP) 네트워크에 사용되는 네트워크 프로토콜
 IP 주소 및 기타 통신 매개변수를 네트워크에 연결된 장치에 자동으로 할당
