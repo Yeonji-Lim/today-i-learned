@@ -5,7 +5,7 @@
 - 스트림 방식이므로 속도가 빠르고 유연하다 
 - 다양한 third party 데이터 타입을 지원함
 - annotation 방식으로 메타 데이터 기술
-	-> JSON의  약점 중 하나인 문서화와 데이터 validation 문제 해결 가능
+	-> JSON의  약점 중 하나인 문서화와 데이터 [validation](Validation) 문제 해결 가능
 
 ## Class에서 Json으로 변경
 Jackson을 사용해서 class 변수를 자동으로 json 형태로 변환해줄 수 있음
