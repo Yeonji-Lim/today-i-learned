@@ -1,13 +1,13 @@
 .trash/
 .DS_Store
 .obsidian
-/Job_Seeking/*
+/JobSeeking/*
 /Memo
-/Old_TIL/.DS_Store
-Markdown_Templates/*
-Temp_Post/*
-Dev_Log/*
-To_Do/*
+/OldTIL/.DS_Store
+MarkdownTemplates/*
+TempPost/*
+DevLog/*
+ToDo/*
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,obsidian,visualstudiocode
