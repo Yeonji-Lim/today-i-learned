@@ -3,7 +3,7 @@
 
 ## 1차원 배열 매개변수
 
-```
+```cpp
 void func(int arr[]){}
 void func(int *arr){}
 ```
@@ -20,7 +20,7 @@ void func(int *arr){}
 
 앞서서 말했듯이 우리는 1차원 배열을 전달하는 것이 아니라 포인터를 전달하는 것이다.
 
-```
+```cpp
 void func(int arr[][10]) {}
 ```
 
@@ -28,13 +28,13 @@ void func(int arr[][10]) {}
 
 그리고 1차원 배열은 결국 포인터의 배열식 표기 이므로 다음과 같이 작성할 수도 있다.
 
-```
+```cpp
 void func(int (*arr)[10]) {}
 ```
 
 그러면 여기서 왜 다음처럼 그냥 크기를 모두 비워서 작성하는 것이 안되는지 궁금하게 된다.
 
-```
+```cpp
 void func(int arr[][]) {}
 void func(int (*arr)[]) {}
 ```
