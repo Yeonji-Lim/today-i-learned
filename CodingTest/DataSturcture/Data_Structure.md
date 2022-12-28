@@ -6,10 +6,10 @@
 
 ## [배열(Array)](Array.md)
 
-## [연결리스트(Linked List)](Linked_List)
+## [연결리스트(Linked List)](Linked_List.md)
 
-## [스택(Stack)](Stack)
+## [스택(Stack)](Stack.md)
 
 ## 큐(Queue)
 
-## [그래프(Graph)](Graph)
+## [그래프(Graph)](Graph.md)

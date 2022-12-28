@@ -1,4 +1,4 @@
-# [HTTP](HTTP) Method
+# [HTTP](CE/CN/HTTP.md) Method
 
 REST를 지키면서 행위를 전달하는 방법
 
