@@ -22,6 +22,14 @@ Desktop Services Store의 약자로, 맥에서 시스템이 finder로 폴더에 
 
 터미널에서 해당 레포 위치로 이동 후 다음을 입력
 
-~~~
+~~~sh
 find . -name .DS_Store -print0 | xargs -0 git rm --ignore-unmatch -f
 ~~~
+
+## 참고
+
+`.idea` 삭제하기
+
+```sh
+find . -name .idea -print0 | xargs -0 git rm -r --ignore-unmatch -f
+```
