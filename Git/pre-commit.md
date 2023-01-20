@@ -59,3 +59,14 @@ repos:
 			- id: flake8
 
 ```
+
+## autoupdate
+```
+pre-commit autoupdate
+```
+
+## 자동화
+
+```
+pre-commit install
+```
