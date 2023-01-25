@@ -6,7 +6,9 @@ IntelliJ에서 JDK 설정이 안되어 있을 때 실행하면 나오는 오류
 
 설정 > Build, .. > Build Tools > Gradle
 
-Gradle JVM 설정
+Gradle JVM 설정, 
+
+Build and run using, Run tests Using도 IntelliJ IDEA로 바꿔야 함
 
 2. 
 
