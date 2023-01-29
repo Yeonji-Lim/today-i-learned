@@ -10,4 +10,6 @@
 - 연산이 고립되어, 다른 연산과의 혼선으로 인해 잘못된 값을 가져오는 경우가 방지된다.
 - 연산의 원자성이 보장되어, 연산이 도중에 실패할 경우 변경사항이 Commit되지 않는다.
 
+UPDATE, DELETE 할 경우에 꼭 붙여주어야 함 -> 안 붙이면 `javax.persistence.TransactionRequiredException` 에러 발생
+
 참고 : https://kafcamus.tistory.com/30
