@@ -105,7 +105,7 @@ req 객체의 query가 동적라우팅으로 입력된 값을 가지고 있다.
 근데 만약 입력값 검증 결과 올바른 데이터가 아니면 실패결과를 반환한다.
 
 
-## [Validation](Validation)
+## [Validation](Validation.md)
 
 Next.js에서는 req의 query가 동적 라우팅으로 입력된 값을 가지고 있다고 하였다.
 

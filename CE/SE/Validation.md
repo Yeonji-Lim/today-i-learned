@@ -4,9 +4,9 @@
 
 ## 테스트에서
 
-실제 제품을 검사하고 테스트하는 동적인 과정, [Verification](Verification)과 비교된다.
+실제 제품을 검사하고 테스트하는 동적인 과정, [Verification](Verification.md)과 비교된다.
 
-참고 : [V&V](V&V)
+참고 : [V&V](V&V.md)
 
 - 단위 테스트
 - 통합 테스트
