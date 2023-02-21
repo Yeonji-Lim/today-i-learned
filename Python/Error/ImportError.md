@@ -11,3 +11,11 @@ https://github.com/raghakot/keras-vis/issues/209
 **python interpreter**는 **relative import의 module 위치를 정할 때** == **기준이 되는 모듈의 위치를 정할 때** 
 
 **__name__속성에 의해 결정된다.**
+
+# module 'datetime' has no attribute 'now'
+
+임포트 방법을 수정해야 한다.
+
+```
+from datetime import datetime
+```
