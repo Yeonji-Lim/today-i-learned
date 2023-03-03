@@ -82,6 +82,7 @@ next_permutation은 이렇게 생겼고 중복된 원소가 있으면 구별하�
 template< class BidirIt, class Compare >
           bool next_permutation( BidirIt first, BidirIt last, Compare comp );
 ~~~
+
 ~~~
 do {
     for(int i = 0; i < 5; i++) {
