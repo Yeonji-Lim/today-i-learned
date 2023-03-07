@@ -1,4 +1,3 @@
-
 Beam Search 는 최고우선탐색(Best-First Search) 기법의 개선된 형태 이다.
 
 먼저 알아두어야 할 것은 RNN에서의 Beam Search를 다루기 때문에 트리 탐색의 관점으로 살펴볼 것이다.
