@@ -6,7 +6,7 @@
 [관계형 데이터 모델](Relation_Data_Model)의 기본 기능
 
 ## 종류
-### 개체 무결성([Entity](Entity) Integrity)
+### 개체 무결성([Entity](CE/DB/Entity.md) Integrity)
 고유 키(유일 키)의 개념과 관련됨
 
 - 모든 테이블이 기본 키를 가져야 한다. 

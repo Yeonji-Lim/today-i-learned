@@ -1,5 +1,5 @@
 # ERD
-[Entity](Entity.md) [Relationship](Relationship) Diagram
+[Entity](CE/DB/Entity.md) [Relationship](Relationship) Diagram
 
 개체-관계 모델
 테이블 간의 관계를 설명해주는 다이어그램
@@ -18,7 +18,7 @@ API를 효율적으로 뽑아내기 위한 모델 구조도
 
 ## 기본 요소
 ![[ERD_Basic_Elements.png]]
-### [Entity](Entity)
+### [Entity](CE/DB/Entity.md)
 ### [Attribute](Attribute)
 ### [RelationShip](RelationShip)
 
