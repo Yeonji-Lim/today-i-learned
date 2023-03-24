@@ -1,4 +1,4 @@
-# C++로 조합구현하기
+# C++로 [조합](Combination) 구현하기
 
 Python에서는 어떤 배열에서 조합을 구해야 할 때, combinations를 사용해서 조합을 계산할 수 있다.
 
