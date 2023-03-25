@@ -7,4 +7,4 @@
 중요한 것은 모든 프로세스가 커널 공간을 공유한다는 것
 리눅스는 커널 공간에서 프로세스간 공유가 가능하다.
 
-![[Linux_Process_Spaces.png]]
+![](https://i.imgur.com/KufvpQa.png)

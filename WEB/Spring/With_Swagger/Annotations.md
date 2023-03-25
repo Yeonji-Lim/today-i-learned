@@ -23,4 +23,4 @@ private String imgURL;
 private String recruitStatus;
 ```
 
-![[swagger_response_description.png]]
+![](https://i.imgur.com/96GxJZy.png)

@@ -1,5 +1,5 @@
 # 서버 템플릿 구조
-![[server_template.png]]
+![](https://i.imgur.com/CrHNLUj.png)
 
 ## 각 요소 설명
 

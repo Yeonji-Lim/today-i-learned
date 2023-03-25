@@ -56,7 +56,7 @@ msgrcv
 
 주요 시그널은 64개 정도된다.
 
-![[PCB_and_Signal.png]]
+![](https://i.imgur.com/VcAWlmW.png)
 
 PCB에 해당 프로세스가 블록 또는 처리해야하는 시그널도 관리한다.
 

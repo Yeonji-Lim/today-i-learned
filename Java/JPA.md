@@ -8,7 +8,9 @@ JAVA에 있는 데이터를 영구히 기록할 수 있는 환경을 제공하�
 JPA는 JAVA 진영의 ORM 기술 표준이다.
 
 JAVA 어플리케이션과 JDBC 사이에 위치하고 있다.
-![[JPA.png]]
+
+![](https://i.imgur.com/w5MO94a.png)
+
 
 ## 2. JPA는 반복적인 [CRUD](CRUD.md)작업을 생략하게 해준다.
 

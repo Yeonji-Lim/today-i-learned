@@ -17,7 +17,9 @@ API를 효율적으로 뽑아내기 위한 모델 구조도
 서로 다른 시스템 요소와 서로 간의 관계 식별에 도움
 
 ## 기본 요소
-![[ERD_Basic_Elements.png]]
+
+![](https://i.imgur.com/7GSOJuT.png)
+
 ### [Entity](CE/DB/Entity.md)
 ### [Attribute](Attribute)
 ### [RelationShip](RelationShip)

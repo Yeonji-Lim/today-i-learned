@@ -8,7 +8,7 @@ cd ~/.ssh
 ssh-keygen -t rsa -C "view7186@naver.com" -f "id_rsa_leepae"
 ```
 
-![[Multi_User_user1.png]]
+![](https://i.imgur.com/ckrxBlv.png)
 
 ```shell
 ssh-keygen -t rsa -C "view7186@dalcomsoft.com" -f "id_rsa_yeonji_dalcom"
@@ -19,7 +19,7 @@ ssh-keygen -t rsa -C "view7186@dalcomsoft.com" -f "id_rsa_yeonji_dalcom"
 ls -al ~/.ssh
 ```
 
-![[ssh_key_check.png]]
+![](https://i.imgur.com/VR40eOQ.png)
 
 .pub : 공개키 파일
 붙지 않은 파일이 개인키 파일
@@ -50,7 +50,7 @@ vscode로 공개키 열기
 code ~/.ssh/id_rsa_leepae.pub
 ```
 
-![[github_key_setting.png]]
+![](https://i.imgur.com/algZgjx.png)
 
 다른 계정도 동일한 과정 진행
 

@@ -8,7 +8,7 @@ $ clang --version
 plugin 설치
 1. C/C++
 2. Code Runner
-   ![[Pasted image 20220830123429.png]]
+   ![](https://i.imgur.com/oU6MH9u.png)
 
 [[set_settings.json]]
 ```json

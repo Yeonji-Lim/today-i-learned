@@ -19,7 +19,7 @@
 >  0~7     : 8진수(octet) 형식 모드 설정 값.
 
 ### 파일 권한 숫자 표기 법
-![[chmod.png]]
+![](https://i.imgur.com/q811juQ.png)
 
 사용자와 그룹에게 읽기, 쓰기 권한을 추가
 ```shell

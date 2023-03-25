@@ -1,6 +1,6 @@
 # authorizationGrantType cannot be null
 
-![[authorizationGrantType.png]]
+![](https://i.imgur.com/ATD3Bjh.png)
 
 ```
 security:  

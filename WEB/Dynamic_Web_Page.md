@@ -3,6 +3,6 @@
 
 사용자는 상황, 시간, 요청 등에 따라 달라지는 웹 페이지를 보게됨
 
-![[dynamic_web.png]]
+![](https://i.imgur.com/6VOsdNZ.png)
 
 cf : [정적 웹페이지](Static_Web_Page)

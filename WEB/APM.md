@@ -21,7 +21,8 @@ PM의 버전은 맞추어주어야 함 -> 연동이 되는게 있고 아닌게 �
 ```shell
 brew install httpd
 ```
-![[Pasted image 20220929224901.png]]
+![](https://i.imgur.com/wXPQhA7.png)
+
 ```shell
 ==> **Caveats**
 
@@ -59,7 +60,7 @@ Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
 brew install php@8.0
 ```
 
-![[Pasted image 20220929224958.png]]
+![](https://i.imgur.com/HoTyZJF.png)
 ```shell
 ==> **php@8.0**
 

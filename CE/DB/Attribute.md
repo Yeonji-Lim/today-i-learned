@@ -8,4 +8,4 @@
 다른 Attribute의 속성도 될 수 있음
 이 속성이 가질 수 있는 값의 범위를 [Domain](Domain.md)이라고 한다.
 
-![[Attribute.png]]
+![](https://i.imgur.com/67FLmuw.png)

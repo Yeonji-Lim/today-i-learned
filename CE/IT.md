@@ -12,4 +12,4 @@
 ## 핵심
 [정보](Information)를 만드는 [컴퓨터](Computer)와 정보를 전달하는 [네트워크](Network)
 
-![[IT_Main_Point.png]]
+![](https://i.imgur.com/JT96rgc.png)

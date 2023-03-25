@@ -1,2 +1,3 @@
 # 구문 실행 순서
-![[order_of_execution.png]]
+
+![](https://i.imgur.com/KzjjEp3.png)
