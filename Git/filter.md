@@ -1,11 +1,12 @@
 # git filter
 
-깃허브 레포에 잘못해서 공개해서는 안되는 파일이 올라가서 삭제해야하는 경우, 삭제 기록이 남아서 그 내용까지 모두 볼 수 있게 된다.
+깃허브 레포에 잘못해서 공개해서는 안되는 파일이 올라가서 삭제해야하는 경우, 
 
-보안 상으로 문제가 되는데, 처음부터 프라이빗으로만 레포를 운영한다던가 처음부터 gitignore로 관리해주면 괜찮지만,
+삭제 기록이 남아서 그 내용까지 모두 볼 수 있게 된다.
 
-공개 레포의 경우에는 git init으로 다시 레포를 정리하던가 해야하지만 다른 방법으로 git filter 가 있다.
+보안 상으로 문제가 되는데, 처음부터 프라이빗으로만 레포를 운영한다던가 처음부터 `.gitignore`로 관리해주면 괜찮지만,
 
+공개 레포의 경우에는 `git init`으로 다시 레포를 정리하던가 해야하지만 다른 방법으로 `git filter`가 있다.
 
 git filter는 해당 파일을 git 전체 히스토리에서 필터링해서 재작성해준다.
 
@@ -13,10 +14,9 @@ git filter는 해당 파일을 git 전체 히스토리에서 필터링해서 재
 $ git filter-branch -f --index-filter 'git rm --cached --ignore-unmatch [해당파일경로&이름]' --prune-empty -- --all
 ~~~
 
-git rm --cached : 리모트 브랜치에 있는 해당 파일을 정리, 이름이 맞지 않는 파일은 무시하고 해당 파일만 원격 브랜치에서 삭제해줌
+`git rm --cached` : 리모트 브랜치에 있는 해당 파일을 정리, 이름이 맞지 않는 파일은 무시하고 해당 파일만 원격 브랜치에서 삭제해줌
 
-
-만약에 resource라는 폴더 하위에 있는 것들 모두 진행하고 싶다면
+만약에 `resource`라는 폴더 하위에 있는 것들 모두 진행하고 싶다면
 
 ~~~
 $ git filter-branch -f --index-filter 'git rm --cached --ignore-unmatch resource/' --prune-empty -- --all
