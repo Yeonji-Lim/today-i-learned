@@ -2,7 +2,8 @@
 
 V-모델의 V는 [V&V](V&V)를 의미한다.
 
-![[v_model.png]]
+![](https://i.imgur.com/eQqTEHl.png)
+
 
 개발과 테스트를 동등하게 간주하는 모델
 
