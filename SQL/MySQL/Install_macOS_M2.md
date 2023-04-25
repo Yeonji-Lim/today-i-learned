@@ -6,3 +6,9 @@ mysql --version
 mysql.server start
 mysql_secure_installation
 ```
+
+![](https://i.imgur.com/4XfFIHy.png)
+
+```sh
+mysql -u root -p
+```
