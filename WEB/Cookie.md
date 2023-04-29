@@ -1,6 +1,6 @@
 # 쿠키
 
-> [HTTP](CE/CN/HTTP.md) 쿠키, 웹 쿠키, 브라우저 쿠키
+> [HTTP](CS/CN/HTTP.md) 쿠키, 웹 쿠키, 브라우저 쿠키
 
 **서버가 사용자의 웹 브라우저에 전송하는 작은 데이터 조각**
 
@@ -10,7 +10,7 @@
 
 이를 통해 사용자 로그인 상태를 유지할 수 있다. 
 
-→ [Stateless](Stateless) HTTP [프로토콜](Protocol)에서 상태 정보를 기억해주기 때문
+→ [Stateless](Stateless) HTTP [프로토콜](Protocol.md)에서 상태 정보를 기억해주기 때문
 
 ## 형태
 

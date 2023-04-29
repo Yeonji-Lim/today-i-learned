@@ -2,7 +2,7 @@ Route : 경로, 출발지와 목적지가 있다. 라우팅에 의한 결과
 
 Routing : 경로를 찾아가게 하는 과정, 목적에 따라 효율적인 라우팅 프로토콜을 선택하는 것
 
-Routing [Protocol](Protocol) : 찾아주는 규칙을 사용하는 프로토콜
+Routing [Protocol](Protocol.md) : 찾아주는 규칙을 사용하는 프로토콜
 
 # Next.js의 라우터
 

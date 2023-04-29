@@ -1,8 +1,8 @@
 # Dependency Injection
-[의존성](Dependency) 주입
-외부에서 객체 간의 의존 관계를 결정해주는 [디자인 패턴](Design_Pattern)
+[의존성](Dependency.md) 주입
+외부에서 객체 간의 의존 관계를 결정해주는 [디자인 패턴](Design_Pattern.md)
 
-Spring에서는 모든 클래스의 메소드에서 같은 오브젝트를 공유해서 사용할 수 있다. [싱글톤](Singleton)!
+Spring에서는 모든 클래스의 메소드에서 같은 오브젝트를 공유해서 사용할 수 있다. [싱글톤](Singleton.md)!
 
 [IoC](IoC.md)원칙을 실현하기 위한 디자인 패턴 중 하나이다.
 

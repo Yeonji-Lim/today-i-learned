@@ -3,7 +3,7 @@
 참고 : [Compara___](Compara___)
 
 - import 불필요
-- [Interface](Interface)
+- [Interface](Interface.md)
 
 ## 구현해야 하는 메소드
 

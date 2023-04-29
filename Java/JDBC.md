@@ -5,7 +5,7 @@ JAVA에서 데이터베이스에 접속할 수 있도록 지원하는 JAVA API
 
 # DB Connect
 
-[DB 접속](Connect_to_DB)
+[DB 접속](Connect_to_DB.md)
 
 jdbc에서 db 접근시 url
 ```

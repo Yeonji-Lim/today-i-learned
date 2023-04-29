@@ -20,7 +20,7 @@
 
 ## 단점
 
-### [payload](Payload) 데이터가 커진다.
+### [payload](Payload.md) 데이터가 커진다.
 
 토큰 자체의 문자열 길이가 Session ID보다 길기 때문
 
