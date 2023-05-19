@@ -1,21 +1,5 @@
 
-## 패키지 관리자
-
-RedHat 계열의 Cent OS에서는 YUM(Yellow dog, Updater, Modified)이 있고,
-
-Debian 계열의 Ubuntu에서는 APT(Advanced Packaging Tool)가 있다.
-
-macOS 용으로는 Homebrew가 있음
-
-
-## NPM(Node Package Manager)
-
-자바스크립트 프로그래밍 언어를 위한 패키지 관리자
-
-node.js에서 사용하는 모듈들을 패키지로 만들어서 npm을 통해서 관리하고 배포함
-
--> 비슷한 개념으로 python의 pip, Java의 Jpm, C#의 NuGet, PHP의 Composer, ruby의 Gem
-
+[npm](npm)
 
 맥북의 경우, node가 brew로 설치가 안되는 경우가 있는데, 그냥 node.js로 가서 pkg 파일을 다운로드 해서 진행하는 편이 빠를 수 있음
 
