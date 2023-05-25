@@ -14,3 +14,23 @@ null이 올 수 있는 값을 감싸는 Wrapper 클래스
 
 ## .get
 객체를 Optional에서 꺼낼 때
+
+## .orElse .orElseGet
+
+.orElse : T의 모든 매개 변수 사용
+.orElseGet : T 유형의 개체를 반환하는 Supplier 유형의 인터페이스 허용
+
+```java
+public T orElse(T other) { 
+	return value != null ? value : other; 
+} 
+
+public T orElseGet(Supplier<? extends T> other) { 
+	return value != null ? value : other.get(); 
+}
+```
+
+## .isPresent .ifPresent
+
+.isPresent : true, false 체크
+.ifPresent : 값을 가지고 있는지 확인 후 예외처리
