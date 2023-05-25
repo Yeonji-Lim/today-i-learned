@@ -10,3 +10,9 @@ HyperText Transfer [Protocol](Protocol.md)
 주요 메소드 : GET, POST, PUT
 
 중요 특징 : [Stateless](Stateless.md)
+
+## Half Duplex, 반이중 통신
+클라이언트가 먼저 요청을 보내고, 그 요청에 따라 웹 서버가 응답하는 형태
+- 웹서버는 응답을 보낸 후 클라이언트와 연결을 끊는다.
+
+양쪽이 데이터를 동시에 보내는 것이 아니기 때문에 반이중 통신
