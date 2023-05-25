@@ -11,3 +11,6 @@ null이 올 수 있는 값을 감싸는 Wrapper 클래스
 
 .of는 null을 입력하면 NPE 발생
 .ofNullable은 null 허용
+
+## .get
+객체를 Optional에서 꺼낼 때
