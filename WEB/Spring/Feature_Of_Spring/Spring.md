@@ -246,7 +246,7 @@ Dispatcher Servlet에서 생성되는 객체들이 관리되는 곳
 ### Application Context
 
 
-어떤 요청이 들어오면 web.xml이 받아서 Dispatch Servlet이 동작해서 '컴포넌트 스캔'을 한다.
+어떤 요청이 들어오면 web.xml이 받아서 Dispatch Servlet이 동작해서 '[컴포넌트 스캔](Component_Scan)'을 한다.
 
 
 주소 분배를 해주는 거임. 근데 이때 모든 파일을 뒤져서 필요한 파일을 메모리에 올림
