@@ -1,4 +1,4 @@
-# NAT
+# Network Address Translator
 Wifi 환경과 같이 퍼플릭 IP가 따로 존재하고 공유기 내부에서는 private ip를 이용하여 구분할때, 공유기에서 public ip를 private ip 로 매핑시켜주는 환경
 
 ![](https://i.imgur.com/xc89adc.png)
