@@ -16,7 +16,15 @@
 ## 접속하기
 해당 인스턴스 > 연결 > 가장 마지막 명령 실행
 
-## Java 설치
+## EC2에 Java 설치
+
+## Spring jar 파일 만들기
+
+해당 프로젝트에서
+```sh
+./gradlew build
+```
+
 
 ## FileZilla로 .jar 파일 전송
 
