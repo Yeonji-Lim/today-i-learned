@@ -44,7 +44,7 @@
 -   [이터레이터 (Iterator)](Iterator.md) : 하나씩 세다.
 -   미디에이터 (Mediator) : 상대는 카운셀러 한사람뿐.
 -   메멘토 (Memento) : 상태를 보존한다.
--   옵저버 (Observer) : 상태의 변화를 통지한다.
+-   [옵저버 (Observer)](Observer) : 상태의 변화를 통지한다.
 -   스테이트 (State) : 상태를 클래스로서 표현한다.
 -   [스트레티지 (Strategy)](Strategy) : 알고리즘을 모두 교체한다.
 -   템플릿 메서드 (Template Meothods) : 체적인 처리를 하위 클래스에게 맡긴다.
