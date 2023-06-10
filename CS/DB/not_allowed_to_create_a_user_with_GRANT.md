@@ -1,0 +1,1 @@
+https://velog.io/@inhalin/ERROR-1410-42000
