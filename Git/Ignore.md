@@ -33,3 +33,16 @@ find . -name .DS_Store -print0 | xargs -0 git rm --ignore-unmatch -f
 ```sh
 find . -name .idea -print0 | xargs -0 git rm -r --ignore-unmatch -f
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
