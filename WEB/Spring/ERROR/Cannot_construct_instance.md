@@ -1,0 +1,1 @@
+뒤에 나오는 클래스에 NoArgConstructor 안붙였을껄
