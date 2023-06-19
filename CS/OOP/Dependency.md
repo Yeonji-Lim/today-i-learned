@@ -9,3 +9,16 @@ public class Store {
 ```
 
 Store 객체가 Pencil 객체에 의존성이 있다.
+
+Association --> **A _has-a_ C** object (as a member variable)
+
+Dependency --> **A _references_ B** (as a method parameter or return type)
+
+```java
+public class A {
+    private C c; // association
+    public void myMethod(B b) { // dependency
+        b.callMethod();
+    }
+}
+```
