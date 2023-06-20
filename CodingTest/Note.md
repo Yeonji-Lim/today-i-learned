@@ -19,4 +19,8 @@
   ```cpp
   long long lnum = (long long)(inum1) * (long long)(inum2);
   ```
-  
+
+## 상한 값
+
+![](https://i.imgur.com/KfKDBR5.png)
+https://gall.dcinside.com/mgallery/board/view/?id=ps&no=16797
