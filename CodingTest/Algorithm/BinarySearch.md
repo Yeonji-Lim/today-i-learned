@@ -14,3 +14,7 @@
 결국 left의 상태와 right의 상태를 항상 유지하는 것이 포인트이다!
 
 참고 : https://www.acmicpc.net/blog/view/109
+
+# parametric search
+
+대충 답이 되는 범위안에서 아무거나 툭툭 던져보는 것
