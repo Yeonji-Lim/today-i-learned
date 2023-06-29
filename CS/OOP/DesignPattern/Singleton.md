@@ -4,8 +4,6 @@ Singleton Pattern
 
 즉, 객체의 [인스턴스](Instance.md)가 오직 1개만 생성된다.
 
-레지스트리 같은 설정 파일의 경우 여러개 생성되면 설정 값이 변경될 위험이 생길 수 있다.
-
 인스턴스가 1개만 생성되는 싱글톤 패턴을 이용하면 하나의 인스턴스를 메모리에 등록해서 여러 스레드가 동시에 해당 인스턴스를 공유하여 사용할 수 있게끔 할 수 있기 때문에 요청이 많은 곳에서 사용하면 효율을 높일 수 있다.
 
 만들 때 동시성 문제를 고려해서 설계해야 한다는 주의 사항이 있다.
@@ -38,3 +36,96 @@ Singleton Pattern
 - 내부 상태를 변경하기 어렵다.
 
 따라서 꼭 필요한 경우가 아니라면 싱글톤 패턴은 지양하자
+
+## 예제로 이해하기
+```java
+public class WhiteBoard {  
+    private static WhiteBoard whiteBoard = null;  
+    
+    private WhiteBoard() {}  
+    
+    public static WhiteBoard getInstance() {  
+        if(whiteBoard == null) {  
+            whiteBoard = new WhiteBoard();  
+        }  
+        return whiteBoard;  
+    }  
+}
+```
+
+기본 생성자를 통해 생성할 수 없기 때문에 외부에서 인스턴스에 접근하려면 
+
+클래스 변수 및 메서드에 접근을 허용해야 하기 때문에 두 메서드는 [정적 타입](static)으로 선언
+
+### 문제점
+동시에 이 화이트보드에 접근하는 경우를 생각하자 (여러 스레드가 공유되고 있는 상황)
+
+동시에 화이트보드가 있는지 없는 지를 확인할 수 있다. 어떤 사용자는 화이트보드가 있는데도 불구하고 없다고 생각하고 한번 더 객체를 생성해버릴 수 있다. -> 더이상 싱글톤이 아니다.
+
+아래와 같이 특정 변수를 공유한다면 더 문제가 크다
+
+```java
+public class WhiteBoard {  
+    private static WhiteBoard whiteBoard = null;  
+    private String content = "";  
+	
+    private WhiteBoard() {}  
+    
+    public static WhiteBoard getInstance() {  
+        if(whiteBoard == null) {  
+            whiteBoard = new WhiteBoard();  
+        }  
+        return whiteBoard;  
+    }  
+	
+    public void print() {  
+        content += "ㅁ";  
+        System.out.println(content);  
+    }  
+}
+```
+
+content 값은 여러 스레드가 공유하고 있는데 서로 다른 프로세스에서 처리되고 있다. -> 값이 일관되지 않을 수 있다.
+
+### 해결 방법
+
+이런 멀티 스레드 환경에서 싱글톤의 문제를 해결할 수 있는 방법은 두가지가 있다.
+
+1. 정적 변수에 인스턴스를 만들어 바로 초기화
+2. 인스턴스를 만드는 메서드에 동기화
+
+#### 정적 변수에 인스턴스를 만들어 바로 초기화
+
+객체가 생성되기 전 클래스가 메모리에 로딩할 때 만들어져 초기화가 한 번만 실행
+
+-> 조건문으로 존재 유무를 체크하지 않아도 되므로 문제 원천 차단
+
+#### 인스턴스를 만드는 메서드에 동기화
+
+하지만 여전히 content에 대해서는 문제가 해결되지 않았음
+
+`synchronized` 라는 키워드를 통해 여러 쓰레드에서 동시에 접근하는 것을 막을 수 있다.
+
+```java
+public class WhiteBoard {  
+    private static WhiteBoard whiteBoard = new WhiteBoard;  
+    private static String content = "";  
+	
+    private WhiteBoard() {}  
+    
+    public static WhiteBoard getInstance() {  
+        return whiteBoard;  
+    }  
+	
+    public synchronized static void print() {  
+        content += "ㅁ";  
+        System.out.println(content);  
+    }  
+}
+```
+
+그런데 인터페이스를 구현하는 경우에는 이 두가지 방법들을 사용할 수 없다.
+
+-> 인터페이스는 정적 메소드를 가질 수 없다.
+
+
