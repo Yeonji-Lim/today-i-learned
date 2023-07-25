@@ -26,7 +26,7 @@
 
 객체간의 관계를 조직하여 더 큰 구조를 만든다.
 
--   어댑터 (Adapter) : 한 꺼풀 덧씌워 재사용.
+-   [어댑터 (Adapter)](Adapter) : 한 꺼풀 덧씌워 재사용.
 -   [브리지 (Bridge)](Bridge.md) : 기능의 계층과 구현의 계층을 분리한다.
 -   [컴퍼지트 (Composite)](Composite.md) : 그릇과 내용물의 동일시.
 -   [데코레이터 (Decorator)](Decorator.md) : 장식과 내용물의 동일시.
@@ -47,5 +47,5 @@
 -   [옵저버 (Observer)](Observer) : 상태의 변화를 통지한다.
 -   스테이트 (State) : 상태를 클래스로서 표현한다.
 -   [스트레티지 (Strategy)](Strategy) : 알고리즘을 모두 교체한다.
--   템플릿 메서드 (Template Meothods) : 체적인 처리를 하위 클래스에게 맡긴다.
+-   [템플릿 메서드 (Template Methods)](Template_Method) : 체적인 처리를 하위 클래스에게 맡긴다.
 -   비지터 (Visitor) : 구조 안을 돌아다니면서 일을 한다.
