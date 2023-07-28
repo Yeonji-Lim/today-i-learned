@@ -14,3 +14,5 @@ eval
 eval 없이 그냥 minikube docker-env을 실행하면 환경 변수 설정만 표시되지만 현재 쉘 세션에 적용되지 않는다. 
 
 eval을 사용하면 환경 변수 변경 사항을 쉘 세션에 효과적으로 적용, Minikube의 Docker 데몬을 마치 로컬의 Docker 데몬인 것 처럼 사용 가능
+
+![](https://i.imgur.com/L3yz0zB.png)
