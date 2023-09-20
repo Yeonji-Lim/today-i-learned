@@ -1,0 +1,17 @@
+- S3 + Cloudfront 사용 시 직접 엑세스 하는 것을 막으려면 OAI, OAC
+- S3에 쿼리하는 것은 Athena가 RDS보다 적합. 반대로 Athena가 있으면 S3에 쿼리하는 것으로 추측 가능
+- 운영 오버헤드 : SSE-KMS > SSE-S3
+- SQS Queue로 갑작스레 작업이 몰려도 추후 처리하도록 보관 가능
+- Amazon FSx for Lustre
+- Amazon Aurora Serverless : Amazon Aurora에 대한 온디밴드 자동 확장 구성, 데이터베이스가 간헐적이나 예측할 수 없는 워크로드를 가지고 있을 때 간단하고 비용 효율적인 옵션
+- file gateway - nfs storage
+- volume gateway - block storage
+- Reserved Host : 전용 호스트, EC2에서 Microsoft 및 Oracle과 같은 공급 업쳉의 적격 소프트웨어 라이선스를 사용 -> 자체 라이선스 사용의 유연성, 비용 효율성, AWS의 탄력성, 단순성
+- AppFlow : SaaS 어플리케이션과 S3 및 Redshift와 같은 AWS 서비스 간에 데이터를 안전하게 전송할 수 있는 완전 관리형 통합 서비스
+- 컨테이너화된 애플리케이션 배포 = Fargate + ECS
+- KMS, Lambda -> execution으로
+- RESTful 웹 서비스 -> API Gateway
+- EC2 인스턴스가 원시 데이터를 수신, 변환한 다음 모든 데이터를 S3 버킷에 저장한다. -> [Glue](AWS_Glue)
+- CPU 사용률에 따라 Auto Scaling = Target Tracking Policy
+- redshift 사용 : 클라이언트랑 서버 사이드 encryption, building analytics workloads, scaling globally
+- 일반적으로 NAT Gateway를 NAT Instance보다 선호함 -> 수동 구성과 관리가 필요하기 때문
