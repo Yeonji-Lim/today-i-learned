@@ -32,7 +32,7 @@
 -   [데코레이터 (Decorator)](Decorator.md) : 장식과 내용물의 동일시.
 -   퍼사드 (Facade) : 간단한 창구.
 -   플라이웨이트 (Flyweight) : 동일한 것을 공유해서 낭비를 없앤다.
--   프록시 (Proxy) : 필요해지면 만든다.
+-   [프록시 (Proxy)](Proxy) : 필요해지면 만든다.
 
 ### 행위 패턴 (Behavioral Pattern)
 
