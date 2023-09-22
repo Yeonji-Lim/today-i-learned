@@ -1,13 +1,14 @@
 .trash/
 .DS_Store
 .obsidian
-/JobSeeking/*
-/Memo
-/OldTIL/.DS_Store
+JobSeeking/*
+Memo
+OldTIL/.DS_Store
 MarkdownTemplates/*
 TempPost/*
 DevLog/*
 ToDo/*
+FullCalendarNotes/*
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,obsidian,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,obsidian,visualstudiocode
