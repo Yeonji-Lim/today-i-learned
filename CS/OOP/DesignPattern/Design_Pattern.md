@@ -49,3 +49,6 @@
 -   [스트레티지 (Strategy)](Strategy) : 알고리즘을 모두 교체한다.
 -   [템플릿 메서드 (Template Methods)](Template_Method) : 체적인 처리를 하위 클래스에게 맡긴다.
 -   비지터 (Visitor) : 구조 안을 돌아다니면서 일을 한다.
+
+### 그외
+- [컴파운드(Compound)](Compound) : 두가지 이상의 패턴을 결합하여 일반적으로 자주 등장하는 문제들에 대한 해법을 제공한다.
