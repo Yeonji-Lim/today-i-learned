@@ -1,5 +1,5 @@
 # ERD
-[Entity](CS/DB/Entity.md) [Relationship](Relationship.md) Diagram
+[Entity](ComputerScience/DataBase/Entity.md) [Relationship](Relationship.md) Diagram
 
 개체-관계 모델
 테이블 간의 관계를 설명해주는 다이어그램
@@ -20,7 +20,7 @@ API를 효율적으로 뽑아내기 위한 모델 구조도
 
 ![](https://i.imgur.com/7GSOJuT.png)
 
-### [Entity](CS/DB/Entity.md)
+### [Entity](ComputerScience/DataBase/Entity.md)
 ### [Attribute](Attribute.md)
 ### [Relationship](Relationship.md)
 

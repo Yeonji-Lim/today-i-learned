@@ -1,4 +1,4 @@
-# [DTO](DTO) vs [VO](VO) vs [Entity](CS/DB/Entity.md)
+# [DTO](DTO) vs [VO](VO) vs [Entity](ComputerScience/DataBase/Entity.md)
 
 |   | DTO | VO | Entity |
 |---|------|---|---|

@@ -1,6 +1,6 @@
 # 스키마
 - 데이터 베이스의 구조와 제약 조건에 관한 전반적인 명세(Specification)을 의미
-- [Entity](CS/DB/Entity.md), [Attribute](Attribute.md), [Relationship](Relationship.md) 및 데이터 조작 시 데이터 값들이 가지느 ㄴ제약 조건 등에 관해 전반적으로 정의 
+- [Entity](ComputerScience/DataBase/Entity.md), [Attribute](Attribute.md), [Relationship](Relationship.md) 및 데이터 조작 시 데이터 값들이 가지느 ㄴ제약 조건 등에 관해 전반적으로 정의 
 - 사용자의 관점에 따라 외부 스키마, 개념 스키마, 내부 스키마로 나눔 -> **스키마 3계층**
 
 ## 특징

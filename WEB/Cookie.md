@@ -1,6 +1,6 @@
 # 쿠키
 
-> [HTTP](CS/CN/HTTP.md) 쿠키, 웹 쿠키, 브라우저 쿠키
+> [HTTP](ComputerScience/ComputerNetwork/HTTP.md) 쿠키, 웹 쿠키, 브라우저 쿠키
 
 **서버가 사용자의 웹 브라우저에 전송하는 작은 데이터 조각**
 

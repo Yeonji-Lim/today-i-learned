@@ -26,13 +26,13 @@
 
 객체간의 관계를 조직하여 더 큰 구조를 만든다.
 
--   [어댑터 (Adapter)](Adapter) : 한 꺼풀 덧씌워 재사용.
+-   [어댑터 (Adapter)](Adapter.md) : 한 꺼풀 덧씌워 재사용.
 -   [브리지 (Bridge)](Bridge.md) : 기능의 계층과 구현의 계층을 분리한다.
 -   [컴퍼지트 (Composite)](Composite.md) : 그릇과 내용물의 동일시.
 -   [데코레이터 (Decorator)](Decorator.md) : 장식과 내용물의 동일시.
 -   퍼사드 (Facade) : 간단한 창구.
 -   플라이웨이트 (Flyweight) : 동일한 것을 공유해서 낭비를 없앤다.
--   [프록시 (Proxy)](Proxy) : 필요해지면 만든다.
+-   [프록시 (Proxy)](Proxy.md) : 필요해지면 만든다.
 
 ### 행위 패턴 (Behavioral Pattern)
 
@@ -44,11 +44,11 @@
 -   [이터레이터 (Iterator)](Iterator.md) : 하나씩 세다.
 -   미디에이터 (Mediator) : 상대는 카운셀러 한사람뿐.
 -   메멘토 (Memento) : 상태를 보존한다.
--   [옵저버 (Observer)](Observer) : 상태의 변화를 통지한다.
+-   [옵저버 (Observer)](Observer.md) : 상태의 변화를 통지한다.
 -   스테이트 (State) : 상태를 클래스로서 표현한다.
--   [스트레티지 (Strategy)](Strategy) : 알고리즘을 모두 교체한다.
--   [템플릿 메서드 (Template Methods)](Template_Method) : 체적인 처리를 하위 클래스에게 맡긴다.
+-   [스트레티지 (Strategy)](Strategy.md) : 알고리즘을 모두 교체한다.
+-   [템플릿 메서드 (Template Methods)](Template_Method.md) : 체적인 처리를 하위 클래스에게 맡긴다.
 -   비지터 (Visitor) : 구조 안을 돌아다니면서 일을 한다.
 
 ### 그외
-- [컴파운드(Compound)](Compound) : 두가지 이상의 패턴을 결합하여 일반적으로 자주 등장하는 문제들에 대한 해법을 제공한다.
+- [컴파운드(Compound)](Compound.md) : 두가지 이상의 패턴을 결합하여 일반적으로 자주 등장하는 문제들에 대한 해법을 제공한다.

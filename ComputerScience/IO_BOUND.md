@@ -1,5 +1,5 @@
 # I/O Bound
-[CPU Bound](CPU_Bound)와 반대로 I/O Waiting이 더 긴 경우를 말한다.
+[CPU Bound](CPU_Bound.md)와 반대로 I/O Waiting이 더 긴 경우를 말한다.
 
 파일 쓰기, 디스크 작업, 네트워크 통신을 할 때 주로 나타나며 
 

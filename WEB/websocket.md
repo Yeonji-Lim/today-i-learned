@@ -12,7 +12,7 @@
 
 프로토콜의 요청은 `ws://~`로 시작한다.
 
-최초 접속은 [HTTP](HTTP) Request를 통해 HandShaking 과정을 통해 이뤄진다.
+최초 접속은 [HTTP](ComputerScience/ComputerNetwork/HTTP.md) Request를 통해 HandShaking 과정을 통해 이뤄진다.
 - 기존의 80, 443 포트로 접속 : 추가 방화벽을 열지 않고도 양방향 통신이 가능
 - HTTP 규격인 [CORS](CORS) 적용이나 인증 등 과정을 기존과 동일하게 가져갈 수 있다.
 

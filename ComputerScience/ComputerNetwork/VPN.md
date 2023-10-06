@@ -4,4 +4,4 @@
 
 같은 물리적인 네트워크에 존재하지만 논리적으로는 서로 다른 네트워크처럼 사용할 수 있다.
 
-aws의 [VPC](VPC)는 이와 유사한 역할을 한다.
+aws의 [VPC](ComputerScience/ComputerNetwork/VPC.md)는 이와 유사한 역할을 한다.

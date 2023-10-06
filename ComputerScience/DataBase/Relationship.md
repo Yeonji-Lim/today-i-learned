@@ -1,6 +1,6 @@
 # Relationship
 - 상호 연관성이 있는 상태
-- [엔터티](CS/DB/Entity.md)의 인스턴스 사이에는 
+- [엔터티](ComputerScience/DataBase/Entity.md)의 인스턴스 사이에는 
 	논리적인 연관성으로서 존재하는 형태로서나 행위로서
 	서로에게 연관성이 부여된 상태
 

@@ -5,7 +5,7 @@
 - EC2, S3, Lambda 등이 있음
 - IAM으로 인증, 인가를 통해 REST API로 접근 가능
 - 이때 Cloudtrail을 통해 수행하고 있는 작업 검사 가능
-- Console, CLI, [SDK](SDK) 형태의 app을 지원
+- Console, CLI, [SDK](SDK.md) 형태의 app을 지원
 - CloudWatch로 실시간으로 실행 중인 애플리케이션을 모니터링
 
 ## 사용 이점 

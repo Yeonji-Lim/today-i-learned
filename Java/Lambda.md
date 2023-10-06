@@ -14,7 +14,7 @@
 
 ### 단점
 - 호출이 까다롭
-- [Stream](Stream)사용 시 단순 for, while보다 성능이 떨어짐
+- [Stream](Java/Stream.md)사용 시 단순 for, while보다 성능이 떨어짐
 - 가독성 안좋음
 
 ## 표현식

@@ -2,7 +2,7 @@
 
 RAM이 아니라 하드디스크에 저장되는 것이랑 비슷한 느낌
 
-JAVA에 있는 데이터를 영구히 기록할 수 있는 환경을 제공하는 [API](CS/SE/API.md)
+JAVA에 있는 데이터를 영구히 기록할 수 있는 환경을 제공하는 [API](ComputerScience/SoftwareEngineering/API.md)
 
 ## 1. JPA는 [ORM 기술](ORM.md)이다.
 JPA는 JAVA 진영의 ORM 기술 표준이다.
