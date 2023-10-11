@@ -1,12 +1,22 @@
 - S3 + Cloudfront 사용 시 직접 엑세스 하는 것을 막으려면 OAI, OAC
-- S3에 쿼리하는 것은 Athena가 RDS보다 적합. 반대로 Athena가 있으면 S3에 쿼리하는 것으로 추측 가능
-- 운영 오버헤드 : SSE-KMS > SSE-S3
+- Amazon Athena Federated Query
+	- S3에 쿼리하는 것은 Athena가 RDS보다 적합. 반대로 Athena가 있으면 S3에 쿼리하는 것으로 추측 가능
+	- Application 기본 성능에 영향을 주지 않고 데이터 검색
+- SSE-KMS
+	- 암호화 키 관리
+	- S3보다 운영 오버헤드가 크다. 
 - SQS Queue로 갑작스레 작업이 몰려도 추후 처리하도록 보관 가능
 - Amazon FSx for Lustre
 - Amazon FSx for Window File Server : **윈도우즈 기반 파일 공유** 제공, EC2 인스턴스에서 세 계층을 모두 호스팅. 기본 백업 및 데이터 품질 서비스와 같은 SQL Server의 특정 기능을 사용하면서 계층간의 처리를 위해 파일 공유 가능
 - Amazon Aurora Serverless : Amazon Aurora에 대한 온디밴드 자동 확장 구성, 데이터베이스가 간헐적이나 예측할 수 없는 워크로드를 가지고 있을 때 간단하고 비용 효율적인 옵션
 - file gateway - nfs storage
 - volume gateway - block storage
+- EFS vs EBS
+	- EFS
+		- 보통 이게 정답임
+		- 전체 파일 시스템 엑세스 의미 체계를 지원하는 표준 파일 시스템 인터페이스
+	- EBS
+		- 여러 인스턴스에서 동시 접속할 수 없다.
 - Reserved Host : 전용 호스트, EC2에서 Microsoft 및 Oracle과 같은 공급 업쳉의 적격 소프트웨어 라이선스를 사용 -> 자체 라이선스 사용의 유연성, 비용 효율성, AWS의 탄력성, 단순성
 - AppFlow : SaaS 어플리케이션과 S3 및 Redshift와 같은 AWS 서비스 간에 데이터를 안전하게 전송할 수 있는 완전 관리형 통합 서비스
 - 컨테이너화된 애플리케이션 배포 = Fargate + ECS
@@ -21,4 +31,22 @@
 - Elastic Transcoder
 - Amazon Macie : S3 내에 민감 정보 검색 PII(개인 식별 정보)
 - Auto Scaling 수명 주기 후크를 사용하여 EC2 시작 및 종료에 감사 시스템에 보고서 보내기 가능
+- API Gateway : API에 엑세스할 수 있는 사람과 할 수 있는 양, 속도 제어 기능
+- API에 엑세스할 수 있는 사람과 할 수 있는 양, 속도 제어 기능
+- 호스팅 방식
+	- 활성/대기 인스턴스 쌍 활용
+		- 활성 인스턴스가 다운되도 대기 인스턴스가 활성 인스턴스를 대체할 수 있다. -> 가용성이 높다. 
+	- 대기열 호스팅 방식
+- CloudTrail 
+	- 로그
+	- API 호출 기록
+	- EC2 인스턴스 및 보안 그룹에 대한 변경 사항 감사
+	- 적절한 승인 없이 누가 대규모 인스턴스를 프로비저닝 했거나 보안 그룹을 수정했는지 알 수 있다.
+- AWS Transit Gateway  : 여러 VPC, 온프레미스 네트워크 및 원격 네트워크를 연결하기 위한 확장성이 뛰어난 중앙 집중식 허브
+- 버킷에서 MFA 삭제를 활성화 -> 객체를 성공적으로 삭제하려면 추가 인증 요소를 제공해야 한다. 
+- Kinesis Data firehose : 대량의 데이터를 스트리밍, 수집 처리 해야할 때
+- 전세계적으로 웹사이트 요구 충족 -> CloudFront
+- 빠른 응답을 위한 Cloud Front, 인프라 최소화를 위한 s3
+- AWS DataSync : 온프레미스와 s3 데이터 이동
+- AWS Session Manager로 포트를 여는 등의 처리를 안하고도 연결할 수 있음
 - 
