@@ -3,15 +3,22 @@
 - 운영 오버헤드 : SSE-KMS > SSE-S3
 - SQS Queue로 갑작스레 작업이 몰려도 추후 처리하도록 보관 가능
 - Amazon FSx for Lustre
+- Amazon FSx for Window File Server : **윈도우즈 기반 파일 공유** 제공, EC2 인스턴스에서 세 계층을 모두 호스팅. 기본 백업 및 데이터 품질 서비스와 같은 SQL Server의 특정 기능을 사용하면서 계층간의 처리를 위해 파일 공유 가능
 - Amazon Aurora Serverless : Amazon Aurora에 대한 온디밴드 자동 확장 구성, 데이터베이스가 간헐적이나 예측할 수 없는 워크로드를 가지고 있을 때 간단하고 비용 효율적인 옵션
 - file gateway - nfs storage
 - volume gateway - block storage
 - Reserved Host : 전용 호스트, EC2에서 Microsoft 및 Oracle과 같은 공급 업쳉의 적격 소프트웨어 라이선스를 사용 -> 자체 라이선스 사용의 유연성, 비용 효율성, AWS의 탄력성, 단순성
 - AppFlow : SaaS 어플리케이션과 S3 및 Redshift와 같은 AWS 서비스 간에 데이터를 안전하게 전송할 수 있는 완전 관리형 통합 서비스
 - 컨테이너화된 애플리케이션 배포 = Fargate + ECS
+	- 쿠버네티스 클러스터라고 그냥 명시하면 EKS
 - KMS, Lambda -> execution으로
 - RESTful 웹 서비스 -> API Gateway
 - EC2 인스턴스가 원시 데이터를 수신, 변환한 다음 모든 데이터를 S3 버킷에 저장한다. -> [Glue](AWS_Glue)
 - CPU 사용률에 따라 Auto Scaling = Target Tracking Policy
 - redshift 사용 : 클라이언트랑 서버 사이드 encryption, building analytics workloads, scaling globally
 - 일반적으로 NAT Gateway를 NAT Instance보다 선호함 -> 수동 구성과 관리가 필요하기 때문
+- AWS Shield : DDoS 공격으로부터 보호하는 관리형 서비스
+- Elastic Transcoder
+- Amazon Macie : S3 내에 민감 정보 검색 PII(개인 식별 정보)
+- Auto Scaling 수명 주기 후크를 사용하여 EC2 시작 및 종료에 감사 시스템에 보고서 보내기 가능
+- 
