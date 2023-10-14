@@ -48,4 +48,4 @@ UDP보다 속도 느림
 타이머는 Retransmission, Persistence, Time waited, Keep alive가 있다.
 
 - Flow Control : 송신과 수신 측의 데이터 처리 속도 차이를 해결해줌
-- Congestion Control :  수신 측으로 유입되는 트래픽 양이 대역폭을 넘어가지 않게 제어
+- Congestion Control :  수신 측으로 유입되는 [트래픽](Traffic) 양이 [대역폭](Bandwidth)을 넘어가지 않게 제어

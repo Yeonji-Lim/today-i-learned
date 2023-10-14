@@ -8,7 +8,8 @@ public class Store {
 }
 ```
 
-Store 객체가 Pencil 객체에 의존성이 있다.
+Store 객체가 Pencil 객체에 의존성이 있다.  
+== Pencil의 변경사항에 대해 Store가 변해야 한다. 
 
 Association --> **A _has-a_ C** object (as a member variable)
 
