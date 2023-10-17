@@ -8,7 +8,7 @@ ios app을 생성하고 나면
 
 {프로젝트이름}App.swift라는 파일이 자동으로 생기는데 난 튜토리얼 그대로 따라가려고 Landmarks로 이름을 설정함
 
-~~~
+```swift
 import SwiftUI
 
 @main
@@ -19,7 +19,7 @@ struct LandmarksApp: App {
         }
     }
 }
-~~~
+```
 
 이렇게 생김. 이렇게 SwitftUI 앱 라이프 사이클을 사용하는 앱이라면 App 프로토콜을 준수하는 구조를 가지고 있다. 
 
@@ -31,7 +31,7 @@ body : 하나 이상의 스크린을 반환
 
 ContentView.swift로 가보자
 
-~~~
+```swift
 import SwiftUI
 
 struct ContentView: View {
@@ -46,7 +46,7 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-~~~
+```
 
 두개의 struct가 있는 데,
 
@@ -68,7 +68,7 @@ HStack에서 전체 너비를 사용하고자 하면 spacer라는 것을 그 안
 
 .padding이라는 modifier를 통해 화면의 양 끝에 딱 붙는 것을 방지할 수 있다.
 
-~~~
+```swift
 struct ContentView: View {
     var body: some View {
         VStack(alignment: .leading) {
@@ -85,7 +85,7 @@ struct ContentView: View {
         .padding()
     }
 }
-~~~
+```
 
 그림 위에 같은 모양의 도형을 overlay하는 것으로 테두리를 추가할 수 있음
 
@@ -101,7 +101,7 @@ state 변수에 $를 붙이면 그 변수의 기본값을 참조하겠다는 뜻
 
 Map이 알아서 UI에 표시된 지도 부분과 일치하도록 지역값을 업데이트함
 
-~~~
+```swift
 import SwiftUI
 import MapKit
 
@@ -122,7 +122,7 @@ struct MapView_Previews: PreviewProvider {
         MapView()
     }
 }
-~~~
+```
 
 이때 구현된 Map을 보고 싶다면 미리보기를 정적모드가 아닌 라이브모드로 전환해야 함
 
