@@ -8,7 +8,7 @@
 
 브라우저에 알려주는 체제
 
-이때 출처(Origin) : domain, protocol, port
+이때 출처([Origin](Origin)) : domain, protocol, port
 
 웹 어플리케이션은 리소스가 자신의 Origin과 다를 때 CORS 요청을 실행한다.
 
