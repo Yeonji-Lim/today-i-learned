@@ -1,5 +1,5 @@
 # Web Server
-정적  웹 서비스를 수행하는 [미들웨어](Middleware.md)
+정적  웹 서비스를 수행하는 [미들웨어](ComputerScience/SoftwareEngineering/Middleware.md)
 
 서버가 서버에게 요청하는 상황도 꽤 있다
 
