@@ -27,6 +27,6 @@
 	4. successor 노드 삭제
 
 ### 순회
-중위순회로 순회함 ([Traverse](Traverse) 참고)
+중위순회로 순회함 ([Traverse](CodingTest/DataSturcture/Traverse.md) 참고)
 
 
