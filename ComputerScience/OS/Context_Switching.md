@@ -1,6 +1,6 @@
 # Context Switching
 
-cpu에 실행할 [[Context]]를 교체하는 기술
+[cpu](CPU)에 실행할 [[Context]]를 교체하는 기술
 
 프로세스의 경우 기존에 실행되던 프로세스를 중단하고 다른 프로세스를 실행하는 것을 말한다
 

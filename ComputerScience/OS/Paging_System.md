@@ -15,7 +15,7 @@ Page Table에는 가상 주소와 물리 주소간 매핑 주소가 있음
 page에 사용되는 레지스터
 Page-Directory Base (다른 말로 Page Directory의 PFN(Page Frame Number)라고 함)에 CR3가 가르키는 Page Directory의 주소가 저장되어 있음
 
-CR3에 의해 각각의 프로세스가 독립적인 메모리 주소 공간을 가질 수 있다.
+CR3에 의해 각각의 프로세스가 독립적인 [메모리](Memory) 주소 공간을 가질 수 있다.
 -> 그래서 운영체제에서 CR3의 역할이 중요
 
 Process Switching이 일어날 때 Process는 메모리 페이지를 변경해야 함

@@ -138,7 +138,7 @@ sizes : torch.Size나 int 형태, 각 차원 마다 반복할 횟수를 정한�
 
 기존 텐서와 동일한 기본 데이터를 공유함 -> 뷰 텐서에서 값을 수정하면 기존 텐서의 값에 반영됨!
 
-명시적인 데이터 복사를 방지함 -> 메모리의 효율적인 재구성,Slicing, Element-wise operation
+명시적인 데이터 복사를 방지함 -> [메모리](Memory)의 효율적인 재구성,Slicing, Element-wise operation
 
 같은 데이터를 다른 차원으로 변형해서 볼 수 있다. 
 

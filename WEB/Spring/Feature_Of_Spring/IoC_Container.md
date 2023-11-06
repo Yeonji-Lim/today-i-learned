@@ -9,7 +9,7 @@ Object   : 실체화가 가능한 것      -> 의자
 Instance : 실체화가 된 것         -> 의자1, 의자2
 ~~~
 
-생성된 object(instance)는 heap 메모리에 올라가게 된다.
+생성된 object(instance)는 heap [메모리](Memory)에 올라가게 된다.
 
 그리고 그걸 생성한 메서드가 관리하게 된다.
 

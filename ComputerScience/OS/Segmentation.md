@@ -1,5 +1,5 @@
 # Segament
-가상 메모리를 나눈 논리적 단위, 
+가상 [메모리](Memory)를 나눈 논리적 단위, 
 서로 크기가 다르다
 
 # Segmentation 기법

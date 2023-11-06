@@ -13,7 +13,7 @@
 	- 백엔드 프론트엔드 소통이 잘 안됐을 때 확인
 	  백엔드와 프론트엔드가 api를 주고 받을 때 네트워크가 통신하는데, 통신이 제대로 됐는지 안됐는지 확인할 수 있음
 - Performance(예전 Timeline패널) : 성능 측정
-- Memory(예전 Profiles 패널) : 메모리 사용 형태를 작성하고 누수 탐색.
+- [Memory](Memory)(예전 Profiles 패널) : 메모리 사용 형태를 작성하고 누수 탐색.
 - Application(예전 Resources 패널) : 쿠키 및 스토리지 등의 내용 수집
 - Audits : 페이지를 분석하고 최적화를 위한 팁 나열
 - Security : Mixed content 이슈, 인증서 문제 등을 디버깅

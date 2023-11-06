@@ -5,7 +5,7 @@ https://lemontia.tistory.com/649
 #작성필요 
 
 ## 1. Created
-객체를 위한 메모리 공간을 Heap에 할당
+객체를 위한 [메모리](Memory) 공간을 Heap에 할당
 
 ## 2. In Use or Reachable
 ## 3. Invisible

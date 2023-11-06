@@ -33,7 +33,7 @@ msgget
 msgsnd
 msgrcv
 
-### 4. 공유 메모리
+### 4. 공유 [메모리](Memory)
 [[Linux_Memory_Structure]]
 
 리눅스는 프로세스 공간이 완전히 분리되어 있음

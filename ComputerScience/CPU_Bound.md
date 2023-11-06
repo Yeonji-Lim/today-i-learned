@@ -1,4 +1,4 @@
-# CPU Bound
+# [CPU](CPU) Bound
 CPU 사용 기간이 I/O Waiting 보다 긴 경우
 
 보통 긴 배열을 처리하거나 할 때 발생하는 상황
