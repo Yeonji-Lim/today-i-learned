@@ -1,0 +1,1 @@
+Global Server Load Balancing : 지역에 상관없이 부하 분산
