@@ -1,6 +1,6 @@
 https://memo-the-day.tistory.com/126 
 # Spring Boot Tomcat을 구성하는 방법
-[application.properties](application.yml_or_properties)를 수정하여 Spring Boot 웹 애플리케이션에 있는 기본적으로 사전 구성된 임베디드 Tomcat의 구성을 수정할 수 있다.
+[application.properties](application.yml_or_properties.md)를 수정하여 Spring Boot 웹 애플리케이션에 있는 기본적으로 사전 구성된 임베디드 Tomcat의 구성을 수정할 수 있다.
 
 ## 서버 주소 및 포트
 ```properties

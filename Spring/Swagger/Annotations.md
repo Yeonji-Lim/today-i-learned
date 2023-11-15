@@ -4,7 +4,7 @@
 
 # @ApiModelProperty
 
-[DTO](DTO) 예제 설명에 쓰인다.
+[DTO](DTO.md) 예제 설명에 쓰인다.
 
 ```
 @ApiModelProperty(example="그룹 idx")  

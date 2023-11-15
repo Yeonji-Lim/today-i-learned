@@ -6,7 +6,7 @@
 
 ## 3. [IoC 컨테이너를 가진다.](IoC_Container.md)
 
-## 4. [DI](WEB/Spring/Feature_Of_Spring/DI.md)를 지원한다.
+## 4. [DI](DI.md)를 지원한다.
 
 ## 5. 많은 필터를 가지고 있다.
 
@@ -246,7 +246,7 @@ Dispatcher Servlet에서 생성되는 객체들이 관리되는 곳
 ### Application Context
 
 
-어떤 요청이 들어오면 web.xml이 받아서 Dispatch Servlet이 동작해서 '[컴포넌트 스캔](Component_Scan)'을 한다.
+어떤 요청이 들어오면 web.xml이 받아서 Dispatch Servlet이 동작해서 '[컴포넌트 스캔](Component_Scan.md)'을 한다.
 
 
 주소 분배를 해주는 거임. 근데 이때 모든 파일을 뒤져서 필요한 파일을 메모리에 올림
@@ -262,7 +262,7 @@ Dispatcher Servlet에서 생성되는 객체들이 관리되는 곳
 
 IoC는 제어의 역전을 의미함 그리고 이 객체들을 스프링이 직접관리함(어떤 어노테이션을 올릴건지)
 
-개발자는 이 주소를 몰라도 된다. 왜냐면 필요할 때 [DI](DI)([의존성](Dependency.md) 주입)하면 되기 때문
+개발자는 이 주소를 몰라도 된다. 왜냐면 필요할 때 [DI](DI.md)([의존성](Dependency.md) 주입)하면 되기 때문
 
 
 근데 이전에 하는게 있음
