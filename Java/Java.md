@@ -1,0 +1,1 @@
+[컴파일러](Compiler)와 [인터프리터](Interpreter)를 모두 사용함
