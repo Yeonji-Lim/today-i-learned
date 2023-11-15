@@ -12,9 +12,7 @@
 
 ### [JRE](JRE)
 
-### Java Compiler
-
-`.java` 파일을 실행가능한 `.class` 파일로 만들어준다.
+### [Java Compiler](javac)
 
 ## 시작하기
 
