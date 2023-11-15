@@ -1,5 +1,5 @@
 # JVM Execution Engine
-Class Loader에 의해 JVM으로 Load된 Class 파일(바이트 모드) 들은 [Runtime Data Area](Runtime_Data_Area.md)의 Method Area에 배치되는데, 
+Class Loader에 의해 JVM으로 Load된 Class 파일(바이트 모드) 들은 [Runtime Data Area](JVM_Runtime_Data_Area.md)의 Method Area에 배치되는데, 
 
 JVM은 Method Area의 바이트코드를 Execution Engine에 제공.
 Class에 정의된 내용대로 바이트코드 실행
