@@ -1,5 +1,4 @@
-
-# [ALB](Application_Load_Balancer)와 [API 게이트웨이](API_Gateway)
+# [ALB](ALB.md)와 [API 게이트웨이](API_Gateway)
 
 ## 공통점
 클라이언트 요청을 적절한 서비스로 라우팅하는 역할

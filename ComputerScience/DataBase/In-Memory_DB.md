@@ -1,4 +1,4 @@
-# In-Memory Database
+# In-Memory [Database](DB)
 데이터 스토리지의 메인 [메모리](Memory)에 썰치되어 운영되는 방식의 데이터 베이스 관리 시스템
 
 디스크에 최적화된 데이터베이스보다 빠르다.

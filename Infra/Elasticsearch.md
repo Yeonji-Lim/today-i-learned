@@ -9,7 +9,7 @@ Apache Lucene(루씬) 기반의 Java 오픈소스 분산 검색 엔진
 
 ELK( Elasticsearch / [Logstatsh](Logstatsh) / [Kibana](Kibana) )스택으로 사용되기도 함
 
-## 관계형 DB와 비교
+## 관계형 [DB](DB)와 비교
 
 ![](https://i.imgur.com/YTw18vb.png)
 ![](https://i.imgur.com/HJ4IJOv.png)

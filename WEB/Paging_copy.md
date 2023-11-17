@@ -15,7 +15,7 @@
 	
 	-   페이징을 담당할 PagingVO를 만든다 (util)
 		-   보여지는 시작과 끝 페이지, 제일 마지막 페이지를 계산하는 메소드
-		-   DB 쿼리에서 사용할 start, end 값 계산 메소드
+		-   [DB](DB) 쿼리에서 사용할 start, end 값 계산 메소드
 	-   게시판 Mapper에 페이징 처리하는 쿼리를 게시글 조회에 넣는다. BoardMapper.xml
 	-   해당 Mapper, Service, Controller에 메소드들을 생성해 연결
 

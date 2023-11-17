@@ -1,5 +1,5 @@
 # Data Access Object
-데이터베이스의 data에 접근하기 위한 객체
+[데이터베이스](DB)의 data에 접근하기 위한 객체
 
 [JPA](JPA)를 사용할 때 Repository와 같은 역할이다.
 

@@ -3,7 +3,7 @@ JAVA에서 데이터베이스에 접속할 수 있도록 지원하는 JAVA API
 
 데이터베이스 접근 후 삽입, 조회등의 처리를 지원
 
-# DB Connect
+# [DB](DB) Connect
 
 [DB 접속](Connect_to_DB.md)
 

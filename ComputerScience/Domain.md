@@ -1,5 +1,5 @@
 # Domain
-## DB
+## [DB](DB)
 [Attribute](Attribute.md)가 가질 수 있는 값의 범위
 ex : 도메인은 1부터 10까지이다
 하나의 속성(attribute)이 취할 수 있는 같은 타입의 원자값들의 집합

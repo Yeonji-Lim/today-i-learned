@@ -269,7 +269,7 @@ IoC는 제어의 역전을 의미함 그리고 이 객체들을 스프링이 직
 
 ContextLoaderListener
 
-스레드 들이 공통적으로 요청하는 것이 있을 수 있음 이런 경우에는 DB connection이 필요
+스레드 들이 공통적으로 요청하는 것이 있을 수 있음 이런 경우에는 [DB](DB) connection이 필요
 
 이 리스너가 이걸 띄움
 

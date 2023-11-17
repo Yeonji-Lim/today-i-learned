@@ -1,4 +1,4 @@
-- DB와 관계된 커넥션 정보를 담고있으며 빈으로 등록하여 인자로 넘겨준다. → 이 과정을 통해 Spring은 DataSource로 DB와의 연결을 획득한다.
+- [DB](DB)와 관계된 커넥션 정보를 담고있으며 빈으로 등록하여 인자로 넘겨준다. → 이 과정을 통해 Spring은 DataSource로 DB와의 연결을 획득한다.
     - DB 서버와의 연결을 해준다.
     - DB Connetion pooling기능
 - 종류 : JDBC Driver vendor(MySQL, Oracle)별로 여러가지가 존재한다.

@@ -1,5 +1,5 @@
 # CRUD Matrix
-시스템 개발 시 프로세스와 DB에 저장되는 데이터 사이의 Dependency를 표현하는 Matrix
+시스템 개발 시 [프로세스](Process)와 [DB](DB)에 저장되는 데이터 사이의 Dependency를 표현하는 Matrix
 [엔티티](ComputerScience/DataBase/Entity.md)의 생성, 참조, 변경, 삭제와 업무 기능같의 관계를 표로 나타냄
 
 ## 필요성
