@@ -52,7 +52,7 @@ CPU의 입장에서 작업의 최소 단위
 
 #### Mutual exclusion(상호 배제)
 
-#### Mutex (Binary Semaphore)
+#### [Mutex](Mutex) (Binary Semaphore)
 
 #### Semaphore
 

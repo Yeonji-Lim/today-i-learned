@@ -17,7 +17,7 @@
 
 이 시분할 시스템을 최초에 적용한 것이 유닉스, 이를 무료화한 것이 리눅스
 
-## [멀티 태스킹](Multi_tasking.md)
+## [멀티 태스킹](Multi_Tasking.md)
 
 ## [멀티 프로세싱](Multi_processing.md)
 
