@@ -2,7 +2,7 @@
 
 데이터 유효성 검사 및 설정 관리
 
-validation library가 아닌 parsing 라이브러리
+validation 라이브러리가 아닌 parsing 라이브러리
 
 제공된 유형 및 제약 조건을 준수하는 모델을 구축하는 목적을 위한 수단
 

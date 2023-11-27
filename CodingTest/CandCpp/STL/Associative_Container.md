@@ -7,6 +7,6 @@ key - value 구조로 되어있는 컨테이너
 2. 임연지에 대응하는 값이 무엇인가? -> Yeonji-Lim : 대응하는 값(value) 반환
 
 set, multiset으로 1번 일 가능
-[map](map), multimap으로 2번 일 가능
+[map](map.md), multimap으로 2번 일 가능
 
 맵의 경우 셋보다 사용하는 [메모리](Memory)가 크기 때문에 키의 존재 유무만 궁금하면 셋을 사용하는 것이 좋다.

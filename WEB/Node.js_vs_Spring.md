@@ -3,7 +3,7 @@
 ## Node.js
 - [Javascript](Javascript)는 명시적 타입 정의가 없다.
   
-  type safe하지 못하며 컴파일 단계에서 오류를 포착할 수 없다 (이러한 한계를 보완하기 위해 typeScript를 사용)
+  type safe하지 못하며 [컴파일 단계](Compile_Time)에서 오류를 포착할 수 없다 (이러한 한계를 보완하기 위해 typeScript를 사용)
   
 - 이벤트 루프가 싱글 스레드이기 때문에 하나의 작업에 오랜 시간이 걸리면 시스템 전체의 성능이 급격히 떨어지는 한계
 
