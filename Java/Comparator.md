@@ -3,7 +3,7 @@
 참고 : [Compara___](Compara___)
 
 - import : util
-- [Interface](Interface.md)
+- [Interface](ComputerScience/SoftwareEngineering/Interface.md)
 
 ## 구현해야 하는 메소드
 

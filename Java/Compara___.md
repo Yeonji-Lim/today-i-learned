@@ -2,7 +2,7 @@
 
 ## Interface
 
-두 클래스 모두 [인터페이스](Interface.md) -> 즉, 구현해야 사용이 가능하다.
+두 클래스 모두 [인터페이스](ComputerScience/SoftwareEngineering/Interface.md) -> 즉, 구현해야 사용이 가능하다.
 
 > Interface
 > 필수 요소들을 선언만 해둠, 구체적인 구현을 해서 사용한다.
