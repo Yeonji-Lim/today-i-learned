@@ -11,4 +11,4 @@
 - 직접 인스턴스화 할 수 있다.
 - 그런데 추상 클래스의 목적과 다르게 되어버림
 
-## [인터페이스](Interface)와의 차이점은? -> 
+## [인터페이스](Interface)와의 차이점은? -> [[Abstract_Class_and_Interface]]
