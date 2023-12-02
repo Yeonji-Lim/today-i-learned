@@ -30,3 +30,7 @@ topic에 맞는 메시지만 publisher로부터 전송받음
 
 ### End-to-end 시스템의 강점 상실
 직접 통신이 아니기 때문에 의도한대로 전달하지 못할 수 있음
+
+## Redis 와 Kafka에서 Pub/Sub의 다른 점
+1. 이벤트 저장 여부
+2. 한 이벤트를 받을 수 있는 Subcriber 개수
