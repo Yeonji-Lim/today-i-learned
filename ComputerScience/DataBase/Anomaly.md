@@ -2,7 +2,7 @@
 
 - 삽입 이상
 	
-	튜플 삽입 시 특정 속성에 해당하는 값이 없음
+	[튜플](ComputerScience/DataBase/Tuple) 삽입 시 특정 [속성](Attribute)에 해당하는 값이 없음
 	
 	이런 경우 NULL을 입력해야 한다.
 	
